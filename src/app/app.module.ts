@@ -2,6 +2,9 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
 
+import { HttpClientModule } from '@angular/common/http';
+import { NgxGalleryModule } from '@kolkov/ngx-gallery';
+
 import { appRoutes } from './routes';
 
 import { AppComponent } from './app.component';
@@ -27,6 +30,7 @@ import { ArchitectureContentComponent } from './pages/gallery/architecture/archi
 import { AutomotiveContentComponent } from './pages/gallery/automotive/automotive-content/automotive-content.component';
 import { HomePhotosListComponent } from './pages/home/home-photos-list/home-photos-list.component';
 import { HomePhotoThumbnailComponent } from './pages/home/home-photo-thumbnail/home-photo-thumbnail.component';
+import { CarouselComponent } from './carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -46,6 +50,7 @@ import { HomePhotoThumbnailComponent } from './pages/home/home-photo-thumbnail/h
     AutomotiveContentComponent,
     HomePhotosListComponent,
     HomePhotoThumbnailComponent,
+    CarouselComponent,
   ],
   imports: [
     RouterModule.forRoot(appRoutes),
@@ -56,6 +61,8 @@ import { HomePhotoThumbnailComponent } from './pages/home/home-photo-thumbnail/h
     MatIconModule,
     MatMenuModule,
     MatGridListModule,
+    HttpClientModule,
+    NgxGalleryModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
