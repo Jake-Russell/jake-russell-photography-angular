@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MatMenuTrigger } from '@angular/material/menu';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'navbar',
@@ -11,7 +12,7 @@ export class NavbarComponent implements OnInit {
   enteredButton = false;
   prevButtonTrigger!: MatMenuTrigger;
 
-  constructor() {}
+  constructor(public router: Router) {}
 
   ngOnInit(): void {}
 

@@ -13,9 +13,11 @@ import { MatMenuModule } from '@angular/material/menu';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
-import { HeroImageContainerComponent } from './home/hero-image-container/hero-image-container.component';
-import { HomeContentComponent } from './home/home-content/home-content.component';
+import { HeroImageContainerComponent } from './pages/home/hero-image-container/hero-image-container.component';
+import { HomeContentComponent } from './pages/home/home-content/home-content.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { AboutContentComponent } from './pages/about/about-content/about-content.component';
+import { ContactContentComponent } from './pages/contact/contact-content/contact-content.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +27,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     HeroImageContainerComponent,
     HomeContentComponent,
     PageNotFoundComponent,
+    AboutContentComponent,
+    ContactContentComponent,
   ],
   imports: [
     RouterModule.forRoot(appRoutes),
