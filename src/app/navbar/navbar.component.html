@@ -1,12 +1,12 @@
 <mat-toolbar color="primary">
-  <button mat-button>
+  <button mat-button routerLink="/">
     <img
       src="../../assets/images/jake_russell_photography_logo.png"
       alt=""
       id="jake_russell_photography_logo"
     />
   </button>
-  <button mat-button (click)="router.navigate(['/home'])">Home</button>
+  <button mat-button routerLink="/">Home</button>
   <button
     mat-button
     [matMenuTriggerFor]="menu"
@@ -19,8 +19,8 @@
     <mat-icon *ngIf="!isMatMenuOpen">chevron_right</mat-icon>
     <mat-icon *ngIf="isMatMenuOpen">expand_more</mat-icon>
   </button>
-  <button mat-button (click)="router.navigate(['/about'])">About</button>
-  <button mat-button (click)="router.navigate(['/contact'])">Contact</button>
+  <button mat-button routerLink="/about">About</button>
+  <button mat-button routerLink="/contact">Contact</button>
 </mat-toolbar>
 
 <mat-menu #menu="matMenu" direction="down" yPosition="below">
@@ -28,11 +28,13 @@
     (mouseenter)="isMatMenuOpen = true"
     (mouseleave)="menuLeave(menuTrigger)"
   >
-    <button mat-menu-item>Portraits</button>
-    <button mat-menu-item>Landscapes</button>
-    <button mat-menu-item>Architecture</button>
-    <button mat-menu-item>Still Life</button>
-    <button mat-menu-item>Travel</button>
-    <button mat-menu-item>Automotive</button>
+    <button mat-menu-item routerLink="/gallery/portraits">Portraits</button>
+    <button mat-menu-item routerLink="/gallery/landscapes">Landscapes</button>
+    <button mat-menu-item routerLink="/gallery/architecture">
+      Architecture
+    </button>
+    <button mat-menu-item routerLink="/gallery/still-life">Still Life</button>
+    <button mat-menu-item routerLink="/gallery/travel">Travel</button>
+    <button mat-menu-item routerLink="/gallery/automotive">Automotive</button>
   </span>
 </mat-menu>

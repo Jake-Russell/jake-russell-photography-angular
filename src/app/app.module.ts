@@ -18,6 +18,12 @@ import { HomeContentComponent } from './pages/home/home-content/home-content.com
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { AboutContentComponent } from './pages/about/about-content/about-content.component';
 import { ContactContentComponent } from './pages/contact/contact-content/contact-content.component';
+import { PortraitContentComponent } from './pages/gallery/portraits/portrait-content/portrait-content.component';
+import { LandscapeContentComponent } from './pages/gallery/landscapes/landscape-content/landscape-content.component';
+import { TravelContentComponent } from './pages/gallery/travel/travel-content/travel-content.component';
+import { StillLifeContentComponent } from './pages/gallery/still-life/still-life-content/still-life-content.component';
+import { ArchitectureContentComponent } from './pages/gallery/architecture/architecture-content/architecture-content.component';
+import { AutomotiveContentComponent } from './pages/gallery/automotive/automotive-content/automotive-content.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +35,12 @@ import { ContactContentComponent } from './pages/contact/contact-content/contact
     PageNotFoundComponent,
     AboutContentComponent,
     ContactContentComponent,
+    PortraitContentComponent,
+    LandscapeContentComponent,
+    TravelContentComponent,
+    StillLifeContentComponent,
+    ArchitectureContentComponent,
+    AutomotiveContentComponent,
   ],
   imports: [
     RouterModule.forRoot(appRoutes),
