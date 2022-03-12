@@ -8,10 +8,14 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatMenuModule } from '@angular/material/menu';
+import { MatSidenavModule } from '@angular/material/sidenav';
 import { NavbarComponent } from './navbar/navbar.component';
+import { FooterComponent } from './footer/footer.component';
+import { HeroImageContainerComponent } from './hero-image-container/hero-image-container.component';
+import { ContentContainerComponent } from './content-container/content-container.component';
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent],
+  declarations: [AppComponent, NavbarComponent, FooterComponent, HeroImageContainerComponent, ContentContainerComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -20,6 +24,7 @@ import { NavbarComponent } from './navbar/navbar.component';
     MatButtonModule,
     MatIconModule,
     MatMenuModule,
+    MatSidenavModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
