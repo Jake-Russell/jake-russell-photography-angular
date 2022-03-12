@@ -1,3 +1,38 @@
 <mat-toolbar color="primary">
-  <span>Test</span>
+  <button mat-button>
+    <img
+      src="../../assets/images/jake_russell_photography_logo.png"
+      alt=""
+      id="jake_russell_photography_logo"
+    />
+  </button>
+  <button mat-button>Home</button>
+  <button
+    mat-button
+    [matMenuTriggerFor]="menu"
+    #menuTrigger="matMenuTrigger"
+    (mouseenter)="buttonEnter(menuTrigger)"
+    (mouseleave)="buttonLeave(menuTrigger)"
+    style="z-index: 1050"
+  >
+    Gallery
+    <mat-icon *ngIf="!isMatMenuOpen">chevron_right</mat-icon>
+    <mat-icon *ngIf="isMatMenuOpen">expand_more</mat-icon>
+  </button>
+  <button mat-button>About</button>
+  <button mat-button>Contact</button>
 </mat-toolbar>
+
+<mat-menu #menu="matMenu" direction="down" yPosition="below">
+  <span
+    (mouseenter)="isMatMenuOpen = true"
+    (mouseleave)="menuLeave(menuTrigger)"
+  >
+    <button mat-menu-item>Portraits</button>
+    <button mat-menu-item>Landscapes</button>
+    <button mat-menu-item>Architecture</button>
+    <button mat-menu-item>Still Life</button>
+    <button mat-menu-item>Travel</button>
+    <button mat-menu-item>Automotive</button>
+  </span>
+</mat-menu>

@@ -1,0 +1,11 @@
+#jake_russell_photography_logo {
+  height: 50px;
+}
+
+button.mat-menu-item {
+  background-color: white !important;
+}
+
+button.mat-menu-item:hover {
+  background-color: #eee !important;
+}
