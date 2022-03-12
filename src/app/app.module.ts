@@ -10,7 +10,8 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatMenuModule } from '@angular/material/menu';
-import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatGridListModule } from '@angular/material/grid-list';
+
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeroImageContainerComponent } from './pages/home/hero-image-container/hero-image-container.component';
@@ -24,6 +25,8 @@ import { TravelContentComponent } from './pages/gallery/travel/travel-content/tr
 import { StillLifeContentComponent } from './pages/gallery/still-life/still-life-content/still-life-content.component';
 import { ArchitectureContentComponent } from './pages/gallery/architecture/architecture-content/architecture-content.component';
 import { AutomotiveContentComponent } from './pages/gallery/automotive/automotive-content/automotive-content.component';
+import { HomePhotosListComponent } from './pages/home/home-photos-list/home-photos-list.component';
+import { HomePhotoThumbnailComponent } from './pages/home/home-photo-thumbnail/home-photo-thumbnail.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +44,8 @@ import { AutomotiveContentComponent } from './pages/gallery/automotive/automotiv
     StillLifeContentComponent,
     ArchitectureContentComponent,
     AutomotiveContentComponent,
+    HomePhotosListComponent,
+    HomePhotoThumbnailComponent,
   ],
   imports: [
     RouterModule.forRoot(appRoutes),
@@ -50,7 +55,7 @@ import { AutomotiveContentComponent } from './pages/gallery/automotive/automotiv
     MatButtonModule,
     MatIconModule,
     MatMenuModule,
-    MatSidenavModule,
+    MatGridListModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

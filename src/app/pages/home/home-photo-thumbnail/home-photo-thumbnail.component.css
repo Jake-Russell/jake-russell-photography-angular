@@ -1,0 +1,32 @@
+.homeImageContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 30vw;
+  height: auto;
+  margin: 16px;
+}
+
+.homeImage {
+  width: 100%;
+}
+
+.homeImageLabel {
+  width: 80%;
+  position: absolute;
+  bottom: 40%;
+}
+
+.homeImageContainer:hover {
+  cursor: pointer;
+}
+
+.labelHovered,
+.homeImageContainer:hover .label {
+  display: none;
+}
+
+.label,
+.homeImageContainer:hover .labelHovered {
+  display: block;
+}
