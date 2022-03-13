@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./portrait-content.component.css'],
 })
 export class PortraitContentComponent implements OnInit {
-  images = [
+  carouselImages = [
     {
       imageSrc: '../../../../../assets/images/portraits/chloe_1.jpg',
       imageAlt: 'Chloe 1',
