@@ -8,19 +8,19 @@ import { Component, OnInit } from '@angular/core';
 export class PortraitContentComponent implements OnInit {
   images = [
     {
-      imageSrc: '../../../../../assets/images/home_images/architecture.jpg',
+      imageSrc: '../../../../../assets/images/portraits/chloe_1.jpg',
       imageAlt: 'Architecture',
     },
     {
-      imageSrc: '../../../../../assets/images/home_images/landscape.jpg',
+      imageSrc: '../../../../../assets/images/portraits/nan.jpg',
       imageAlt: 'Landscape',
     },
     {
-      imageSrc: '../../../../../assets/images/home_images/portrait.jpg',
+      imageSrc: '../../../../../assets/images/portraits/grandad_1.jpg',
       imageAlt: 'Portrait',
     },
     {
-      imageSrc: '../../../../../assets/images/home_images/still_life.jpg',
+      imageSrc: '../../../../../assets/images/portraits/overlay.jpg',
       imageAlt: 'Still Life',
     },
   ];
