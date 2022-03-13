@@ -20,3 +20,27 @@ body {
   height: auto !important;
   padding: 0 !important;
 }
+
+.six-by-four,
+.four-by-six,
+.sixteen-by-nine,
+.one-by-one {
+  max-width: 90vw;
+  max-height: 90vh;
+}
+
+.six-by-four {
+  aspect-ratio: 6 / 4;
+}
+
+.four-by-six {
+  aspect-ratio: 4 / 6;
+}
+
+.sixteen-by-nine {
+  aspect-ratio: 4 / 1;
+}
+
+.one-by-one {
+  aspect-ratio: 1 / 1;
+}
