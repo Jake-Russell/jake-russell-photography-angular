@@ -1,7 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { ImageViewerComponent } from '../image-viewer/image-viewer.component';
-import { Image } from '../image.model';
+import { Image } from '../../image.model';
 
 @Component({
   selector: 'image-gallery',

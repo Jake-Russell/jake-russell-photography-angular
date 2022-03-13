@@ -1,6 +1,6 @@
 import { Component, Inject, Input, OnInit } from '@angular/core';
 import { MAT_DIALOG_DATA } from '@angular/material/dialog';
-import { Image } from '../image.model';
+import { Image } from '../../image.model';
 
 @Component({
   selector: 'app-image-viewer',

@@ -30,10 +30,10 @@ import { ArchitectureContentComponent } from './pages/gallery/architecture/archi
 import { AutomotiveContentComponent } from './pages/gallery/automotive/automotive-content/automotive-content.component';
 import { HomePhotosListComponent } from './pages/home/home-photos-list/home-photos-list.component';
 import { HomePhotoThumbnailComponent } from './pages/home/home-photo-thumbnail/home-photo-thumbnail.component';
-import { CarouselComponent } from './carousel/carousel.component';
-import { ImageGalleryComponent } from './image-gallery/image-gallery.component';
-import { ImageViewerComponent } from './image-viewer/image-viewer.component';
-import { TopGalleryComponent } from './top-gallery/top-gallery.component';
+import { CarouselComponent } from './common/carousel/carousel.component';
+import { ImageGalleryComponent } from './common/image-gallery/image-gallery.component';
+import { ImageViewerComponent } from './common/image-viewer/image-viewer.component';
+import { TopGalleryComponent } from './common/top-gallery/top-gallery.component';
 
 @NgModule({
   declarations: [
