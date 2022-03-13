@@ -15,12 +15,15 @@ export class ImageGalleryComponent implements OnInit {
 
   ngOnInit(): void {}
 
-  click(index: number) {
+  click(image: Image, index: number) {
     const dialogRef = this.dialog.open(ImageViewerComponent, {
-      maxHeight: '80vh',
+      // width: '75%',
+      // maxHeight: '80vh',
+
       // width: '85%',
       // height: '75%',
       data: {
+        image,
         images: this.images,
         index,
       },

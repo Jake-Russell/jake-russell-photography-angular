@@ -16,7 +16,10 @@
 </div> -->
 
 <ul *ngIf="images && images.length > 0">
-  <li *ngFor="let image of images; let index = index" (click)="click(index)">
+  <li
+    *ngFor="let image of images; let index = index"
+    (click)="click(image, index)"
+  >
     <img
       [src]="image.imageSrc"
       [alt]="image.imageAlt"

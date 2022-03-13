@@ -10,10 +10,12 @@ import { Image } from '../../image.model';
 export class ImageViewerComponent implements OnInit {
   // @Input() images: Image[] = [];
   images: Image[] = [];
+  image!: Image;
 
   constructor(@Inject(MAT_DIALOG_DATA) public data: any) {
     console.log(`${this.data.images[data.index].imageSrc}`);
     this.images = data.images;
+    this.image = this.data.image;
   }
 
   ngOnInit(): void {}
