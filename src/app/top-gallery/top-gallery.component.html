@@ -1,0 +1,9 @@
+<div class="topGalleryContainer">
+  <section class="left">
+    <app-carousel [images]="images" [autoSlide]="false"></app-carousel>
+  </section>
+  <section class="right">
+    <h1 class="galleryTitle">{{ galleryTitle }}</h1>
+    <p *ngFor="let text of galleryText">{{ text }}</p>
+  </section>
+</div>

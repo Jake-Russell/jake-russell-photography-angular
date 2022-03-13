@@ -33,6 +33,7 @@ import { HomePhotoThumbnailComponent } from './pages/home/home-photo-thumbnail/h
 import { CarouselComponent } from './carousel/carousel.component';
 import { ImageGalleryComponent } from './image-gallery/image-gallery.component';
 import { ImageViewerComponent } from './image-viewer/image-viewer.component';
+import { TopGalleryComponent } from './top-gallery/top-gallery.component';
 
 @NgModule({
   declarations: [
@@ -55,6 +56,7 @@ import { ImageViewerComponent } from './image-viewer/image-viewer.component';
     CarouselComponent,
     ImageGalleryComponent,
     ImageViewerComponent,
+    TopGalleryComponent,
   ],
   imports: [
     RouterModule.forRoot(appRoutes),

@@ -25,6 +25,17 @@ export class PortraitContentComponent implements OnInit {
     },
   ];
 
+  galleryTitle = 'Portrait Gallery';
+
+  galleryText = [
+    "I've chosen a selection of some of my favourite portrait images, showcasing the different styles and techniques that I use in my work.",
+    'Having never experimented with unique portrait styles before studying A-Level Photography, I was really able to explore and develop different creative concepts and ideas.',
+    'In my first year, we used only film cameras, meaning that the different techniques I used had to be implemented either in camera, or in post production in the darkroom.',
+    "Using in camera techniques, I was able to experiment with different shutter speeds and apertures to achieve unique creative effects. In the darkroom I was also able to apply creative techniques such as 'dodging' and 'burning' to lighten and darken specific areas, helping to create a well balanced image.",
+    'In my second year, we were able to use digial cameras too. This allowed me to really experiment with different ideas, without the worry of running out of film! It also allowed me to fully utilise the power of Photoshop to edit, manipulate, and perfect my work.',
+    'I really enjoy portrait photography, capturing the different empotions and characteristics of a person in one still image. I was able to learn a lot about directional skills, and also about lighting, allowing me to achieve different effects with different lighting setups.',
+  ];
+
   allImages = [
     {
       imageSrc: '../../../../../assets/images/portraits/bin_bag_tie.jpg',
@@ -109,23 +120,28 @@ export class PortraitContentComponent implements OnInit {
       imageAlt: '',
     },
     {
-      imageSrc: '../../../../../assets/images/portraits/red_balloon_by_lamp_post.jpg',
+      imageSrc:
+        '../../../../../assets/images/portraits/red_balloon_by_lamp_post.jpg',
       imageAlt: '',
     },
     {
-      imageSrc: '../../../../../assets/images/portraits/red_balloon_in_graveyard.jpg',
+      imageSrc:
+        '../../../../../assets/images/portraits/red_balloon_in_graveyard.jpg',
       imageAlt: '',
     },
     {
-      imageSrc: '../../../../../assets/images/portraits/red_balloon_in_wheel_barrow.jpg',
+      imageSrc:
+        '../../../../../assets/images/portraits/red_balloon_in_wheel_barrow.jpg',
       imageAlt: '',
     },
     {
-      imageSrc: '../../../../../assets/images/portraits/red_balloon_on_bench.jpg',
+      imageSrc:
+        '../../../../../assets/images/portraits/red_balloon_on_bench.jpg',
       imageAlt: '',
     },
     {
-      imageSrc: '../../../../../assets/images/portraits/red_balloon_on_chair.jpg',
+      imageSrc:
+        '../../../../../assets/images/portraits/red_balloon_on_chair.jpg',
       imageAlt: '',
     },
     {
@@ -161,7 +177,8 @@ export class PortraitContentComponent implements OnInit {
       imageAlt: '',
     },
     {
-      imageSrc: '../../../../../assets/images/portraits/tunnel_facing_forwards.jpg',
+      imageSrc:
+        '../../../../../assets/images/portraits/tunnel_facing_forwards.jpg',
       imageAlt: '',
     },
     {
