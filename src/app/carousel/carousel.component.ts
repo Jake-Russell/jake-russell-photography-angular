@@ -1,9 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-
-interface CarouselImage {
-  imageSrc: string;
-  imageAlt: string;
-}
+import { Image } from '../image.model';
 
 @Component({
   selector: 'app-carousel',
@@ -11,7 +7,7 @@ interface CarouselImage {
   styleUrls: ['./carousel.component.css'],
 })
 export class CarouselComponent implements OnInit {
-  @Input() images: CarouselImage[] = [];
+  @Input() images: Image[] = [];
   @Input() indicators = true;
   @Input() controls = true;
   @Input() autoSlide = false;

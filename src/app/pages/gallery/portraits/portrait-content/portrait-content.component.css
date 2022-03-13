@@ -1,6 +1,5 @@
 .topGalleryContainer {
-  /* height: calc(100vh - 115px); */
-  margin: 20px 0 25px 0;
+  margin-bottom: 5px;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -8,25 +7,10 @@
 
 .galleryText,
 .galleryCarousel {
-  /* background-color: red; */
-  flex: 1 0 40%;
+  flex: 1 0 35%;
+  padding: 20px;
 }
 
-.galleryText {
-  padding: 0 20px;
-}
-
-.galleryCarousel {
-  /* background-color: blue; */
-}
-
-/* .galleryText,
-.galleryCarousel {
-  flex: 1 0 50%;
-  white-space: nowrap;
+.galleryTitle {
   text-align: center;
-} */
-
-p {
-  font-size: 14px;
 }

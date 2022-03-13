@@ -31,6 +31,7 @@ import { AutomotiveContentComponent } from './pages/gallery/automotive/automotiv
 import { HomePhotosListComponent } from './pages/home/home-photos-list/home-photos-list.component';
 import { HomePhotoThumbnailComponent } from './pages/home/home-photo-thumbnail/home-photo-thumbnail.component';
 import { CarouselComponent } from './carousel/carousel.component';
+import { ImageGalleryComponent } from './image-gallery/image-gallery.component';
 
 @NgModule({
   declarations: [
@@ -51,6 +52,7 @@ import { CarouselComponent } from './carousel/carousel.component';
     HomePhotosListComponent,
     HomePhotoThumbnailComponent,
     CarouselComponent,
+    ImageGalleryComponent,
   ],
   imports: [
     RouterModule.forRoot(appRoutes),

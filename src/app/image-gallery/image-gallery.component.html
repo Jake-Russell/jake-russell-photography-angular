@@ -1,0 +1,26 @@
+<!-- <div *ngIf="images && images.length > 0" class="imageGalleryContainer">
+  <div *ngFor="let image of images; let i = index">
+    <img
+      *ngIf="image.landscape != true"
+      class="portraitImage"
+      [src]="image.imageSrc"
+      [alt]="image.imageAlt"
+    />
+    <img
+      *ngIf="image.landscape == true"
+      class="landscapeImage"
+      [src]="image.imageSrc"
+      [alt]="image.imageAlt"
+    />
+  </div>
+</div> -->
+
+<ul *ngIf="images && images.length > 0">
+  <li *ngFor="let image of images">
+    <img
+      [src]="image.imageSrc"
+      [alt]="image.imageAlt"
+      [ngClass]="{ landscape: image.landscape }"
+    />
+  </li>
+</ul>
