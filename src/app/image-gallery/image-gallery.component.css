@@ -28,6 +28,11 @@ li {
   flex-grow: 1;
 }
 
+li:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
 /* .landscape {
   width: 40vw;
 } */

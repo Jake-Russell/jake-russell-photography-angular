@@ -1,4 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
+import { ImageViewerComponent } from '../image-viewer/image-viewer.component';
 import { Image } from '../image.model';
 
 @Component({
@@ -9,7 +11,21 @@ import { Image } from '../image.model';
 export class ImageGalleryComponent implements OnInit {
   @Input() images: Image[] = [];
 
-  constructor() {}
+  constructor(private dialog: MatDialog) {}
 
   ngOnInit(): void {}
+
+  click(image: Image, index: number) {
+    console.log(`Image ${image.imageSrc} clicked with index ${index}`);
+    const dialogRef = this.dialog.open(ImageViewerComponent, {
+      width: '75%',
+      data: {
+        images: this.images,
+        index,
+      },
+    });
+    dialogRef.afterClosed().subscribe(() => {
+      console.log('Closed');
+    });
+  }
 }

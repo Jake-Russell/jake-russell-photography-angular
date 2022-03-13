@@ -12,12 +12,16 @@ export class CarouselComponent implements OnInit {
   @Input() controls = true;
   @Input() autoSlide = false;
   @Input() slideInterval = 5000; // Default to 5 seconds
+  @Input() startingIndex = 0;
 
   selectedIndex = 0;
 
   ngOnInit(): void {
     if (this.autoSlide) {
       this.autoSlideImages();
+    }
+    if (this.startingIndex != 0) {
+      this.selectedIndex = this.startingIndex;
     }
   }
 

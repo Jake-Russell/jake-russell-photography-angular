@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
 
 import { HttpClientModule } from '@angular/common/http';
-import { NgxGalleryModule } from '@kolkov/ngx-gallery';
 
 import { appRoutes } from './routes';
 
@@ -14,6 +13,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatGridListModule } from '@angular/material/grid-list';
+import { MatDialogModule } from '@angular/material/dialog';
 
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
@@ -32,6 +32,7 @@ import { HomePhotosListComponent } from './pages/home/home-photos-list/home-phot
 import { HomePhotoThumbnailComponent } from './pages/home/home-photo-thumbnail/home-photo-thumbnail.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { ImageGalleryComponent } from './image-gallery/image-gallery.component';
+import { ImageViewerComponent } from './image-viewer/image-viewer.component';
 
 @NgModule({
   declarations: [
@@ -53,6 +54,7 @@ import { ImageGalleryComponent } from './image-gallery/image-gallery.component';
     HomePhotoThumbnailComponent,
     CarouselComponent,
     ImageGalleryComponent,
+    ImageViewerComponent,
   ],
   imports: [
     RouterModule.forRoot(appRoutes),
@@ -63,8 +65,8 @@ import { ImageGalleryComponent } from './image-gallery/image-gallery.component';
     MatIconModule,
     MatMenuModule,
     MatGridListModule,
+    MatDialogModule,
     HttpClientModule,
-    NgxGalleryModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
