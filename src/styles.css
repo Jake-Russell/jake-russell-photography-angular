@@ -15,3 +15,8 @@ body {
 .mat-tab-body-content {
   transform: none !important;
 }
+
+.mat-dialog-container {
+  height: auto !important;
+  padding: 0 !important;
+}

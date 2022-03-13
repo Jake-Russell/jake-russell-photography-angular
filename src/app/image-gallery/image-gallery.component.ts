@@ -15,17 +15,15 @@ export class ImageGalleryComponent implements OnInit {
 
   ngOnInit(): void {}
 
-  click(image: Image, index: number) {
-    console.log(`Image ${image.imageSrc} clicked with index ${index}`);
+  click(index: number) {
     const dialogRef = this.dialog.open(ImageViewerComponent, {
-      width: '75%',
+      maxHeight: '80vh',
+      // width: '85%',
+      // height: '75%',
       data: {
         images: this.images,
         index,
       },
-    });
-    dialogRef.afterClosed().subscribe(() => {
-      console.log('Closed');
     });
   }
 }
