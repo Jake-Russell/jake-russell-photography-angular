@@ -13,28 +13,28 @@ export class HomeContentComponent implements OnInit {
       labelSrc: '../../../../assets/images/labels/portrait_label.png',
       labelHoverSrc:
         '../../../../assets/images/labels/portrait_label_hover.png',
-      galleryName: 'portrait',
+      galleryUrl: '/gallery/portrait',
     },
     {
       imageSrc: '../../../../assets/images/home_images/architecture.jpg',
       labelSrc: '../../../../assets/images/labels/architecture_label.png',
       labelHoverSrc:
         '../../../../assets/images/labels/architecture_label_hover.png',
-      galleryName: 'architecture',
+      galleryUrl: '/gallery/architecture',
     },
     {
       imageSrc: '../../../../assets/images/home_images/landscape.jpg',
       labelSrc: '../../../../assets/images/labels/landscape_label.png',
       labelHoverSrc:
         '../../../../assets/images/labels/landscape_label_hover.png',
-      galleryName: 'landscape',
+      galleryUrl: '/gallery/landscape',
     },
     {
       imageSrc: '../../../../assets/images/home_images/still_life.jpg',
       labelSrc: '../../../../assets/images/labels/still_life_label.png',
       labelHoverSrc:
         '../../../../assets/images/labels/still_life_label_hover.png',
-      galleryName: 'still_life',
+      galleryUrl: '/gallery/still_life',
     },
   ];
 
