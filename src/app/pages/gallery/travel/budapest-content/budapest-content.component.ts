@@ -24,7 +24,14 @@ export class BudapestContentComponent implements OnInit {
 
   allImages = [
     {
-      imageSrc: '../../../assets/images/travel/budapest/budapest_panorama.jpg',
+      imageSrc:
+        '../../../assets/images/travel/budapest/budapest_panorama_1.jpg',
+      imageAlt: '',
+      ratio: Ratio.Panorama,
+    },
+    {
+      imageSrc:
+        '../../../assets/images/travel/budapest/budapest_panorama_2.jpg',
       imageAlt: '',
       ratio: Ratio.Panorama,
     },
