@@ -12,6 +12,22 @@ export class ParisContentComponent implements OnInit {
       imageSrc: '../../../assets/images/travel/paris/arc_de_triomphe_3.jpg',
       imageAlt: '',
     },
+    {
+      imageSrc: '../../../assets/images/travel/paris/louvre_3.jpg',
+      imageAlt: '',
+    },
+    {
+      imageSrc: '../../../assets/images/travel/paris/sunset_1.jpg',
+      imageAlt: '',
+    },
+    {
+      imageSrc: '../../../assets/images/travel/paris/sacre_coeur_2.jpg',
+      imageAlt: '',
+    },
+    {
+      imageSrc: '../../../assets/images/travel/paris/eiffel_tower_4.jpg',
+      imageAlt: '',
+    },
   ];
 
   galleryTitle = 'Paris Gallery';
@@ -30,20 +46,17 @@ export class ParisContentComponent implements OnInit {
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc:
-        '../../../assets/images/travel/paris/louvre_2_black_and_white.jpg',
+      imageSrc: '../../../assets/images/travel/paris/louvre_2.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc:
-        '../../../assets/images/travel/paris/louvre_3_black_and_white.jpg',
+      imageSrc: '../../../assets/images/travel/paris/louvre_3.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc:
-        '../../../assets/images/travel/paris/louvre_4_black_and_white.jpg',
+      imageSrc: '../../../assets/images/travel/paris/louvre_4.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
@@ -63,14 +76,12 @@ export class ParisContentComponent implements OnInit {
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc:
-        '../../../assets/images/travel/paris/louvre_8_black_and_white.jpg',
+      imageSrc: '../../../assets/images/travel/paris/louvre_8.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc:
-        '../../../assets/images/travel/paris/louvre_9_black_and_white.jpg',
+      imageSrc: '../../../assets/images/travel/paris/louvre_9.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
@@ -80,13 +91,12 @@ export class ParisContentComponent implements OnInit {
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc:
-        '../../../assets/images/travel/paris/paris_streets_2_black_and_white.jpg',
+      imageSrc: '../../../assets/images/travel/paris/paris_streets_2.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc: '../../../assets/images/travel/paris/sunset_1_portrait.jpg',
+      imageSrc: '../../../assets/images/travel/paris/sunset_1.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
@@ -101,7 +111,7 @@ export class ParisContentComponent implements OnInit {
       ratio: Ratio.Landscape,
     },
     {
-      imageSrc: '../../../assets/images/travel/paris/sunset_4_portrait.jpg',
+      imageSrc: '../../../assets/images/travel/paris/sunset_4.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
@@ -111,8 +121,7 @@ export class ParisContentComponent implements OnInit {
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc:
-        '../../../assets/images/travel/paris/paris_streets_3_black_and_white.jpg',
+      imageSrc: '../../../assets/images/travel/paris/paris_streets_3.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
@@ -122,20 +131,17 @@ export class ParisContentComponent implements OnInit {
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc:
-        '../../../assets/images/travel/paris/paris_streets_5_black_and_white.jpg',
+      imageSrc: '../../../assets/images/travel/paris/paris_streets_5.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc:
-        '../../../assets/images/travel/paris/sacre_coeur_1_black_and_white.jpg',
+      imageSrc: '../../../assets/images/travel/paris/sacre_coeur_1.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc:
-        '../../../assets/images/travel/paris/sacre_coeur_2_black_and_white.jpg',
+      imageSrc: '../../../assets/images/travel/paris/sacre_coeur_2.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
@@ -150,8 +156,7 @@ export class ParisContentComponent implements OnInit {
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc:
-        '../../../assets/images/travel/paris/sacre_coeur_5_black_and_white.jpg',
+      imageSrc: '../../../assets/images/travel/paris/sacre_coeur_5.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
