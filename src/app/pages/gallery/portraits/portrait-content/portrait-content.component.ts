@@ -9,20 +9,20 @@ import { Ratio } from 'src/app/common/ratio.enum';
 export class PortraitContentComponent implements OnInit {
   carouselImages = [
     {
-      imageSrc: '../../../../../assets/images/portraits/chloe_1.jpg',
-      imageAlt: 'Chloe 1',
+      imageSrc: '../../../assets/images/portraits/chloe_1.jpg',
+      imageAlt: '',
     },
     {
-      imageSrc: '../../../../../assets/images/portraits/nan.jpg',
-      imageAlt: 'Nan',
+      imageSrc: '../../../assets/images/portraits/nan.jpg',
+      imageAlt: '',
     },
     {
-      imageSrc: '../../../../../assets/images/portraits/grandad_1.jpg',
-      imageAlt: 'Grandad 1',
+      imageSrc: '../../../assets/images/portraits/grandad_1.jpg',
+      imageAlt: '',
     },
     {
-      imageSrc: '../../../../../assets/images/portraits/overlay.jpg',
-      imageAlt: 'Overlay',
+      imageSrc: '../../../assets/images/portraits/overlay.jpg',
+      imageAlt: '',
     },
   ];
 
@@ -39,208 +39,203 @@ export class PortraitContentComponent implements OnInit {
 
   allImages = [
     {
-      imageSrc: '../../../../../assets/images/portraits/bin_bag_tie.jpg',
+      imageSrc: '../../../assets/images/portraits/bin_bag_tie.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc: '../../../../../assets/images/portraits/chloe_1.jpg',
+      imageSrc: '../../../assets/images/portraits/chloe_1.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc: '../../../../../assets/images/portraits/chloe_2.jpg',
+      imageSrc: '../../../assets/images/portraits/chloe_2.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc: '../../../../../assets/images/portraits/chloe_3.jpg',
+      imageSrc: '../../../assets/images/portraits/chloe_3.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc: '../../../../../assets/images/portraits/chloe_4.jpg',
+      imageSrc: '../../../assets/images/portraits/chloe_4.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc: '../../../../../assets/images/portraits/chloe_paper.jpg',
+      imageSrc: '../../../assets/images/portraits/chloe_paper.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc: '../../../../../assets/images/portraits/chloe_sunflowers.jpg',
+      imageSrc: '../../../assets/images/portraits/chloe_sunflowers.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc: '../../../../../assets/images/portraits/chloe_tv_sea.jpg',
+      imageSrc: '../../../assets/images/portraits/chloe_tv_sea.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc: '../../../../../assets/images/portraits/cigarette.jpg',
+      imageSrc: '../../../assets/images/portraits/cigarette.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
     },
     {
-      imageSrc: '../../../../../assets/images/portraits/dad_on_chair.jpg',
+      imageSrc: '../../../assets/images/portraits/dad_on_chair.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc: '../../../../../assets/images/portraits/el_wire_sam.jpg',
+      imageSrc: '../../../assets/images/portraits/el_wire_sam.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
     },
     {
-      imageSrc: '../../../../../assets/images/portraits/el_wire.jpg',
+      imageSrc: '../../../assets/images/portraits/el_wire.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc: '../../../../../assets/images/portraits/ghost.jpg',
+      imageSrc: '../../../assets/images/portraits/ghost.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc: '../../../../../assets/images/portraits/grandad_1.jpg',
+      imageSrc: '../../../assets/images/portraits/grandad_1.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc: '../../../../../assets/images/portraits/grandad_2.jpg',
+      imageSrc: '../../../assets/images/portraits/grandad_2.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
     },
     {
-      imageSrc: '../../../../../assets/images/portraits/light_up_mask.jpg',
+      imageSrc: '../../../assets/images/portraits/light_up_mask.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc: '../../../../../assets/images/portraits/nan.jpg',
+      imageSrc: '../../../assets/images/portraits/nan.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc: '../../../../../assets/images/portraits/overlay.jpg',
+      imageSrc: '../../../assets/images/portraits/overlay.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc: '../../../../../assets/images/portraits/phone_box.jpg',
+      imageSrc: '../../../assets/images/portraits/phone_box.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
     },
     {
-      imageSrc: '../../../../../assets/images/portraits/polaroid.jpg',
+      imageSrc: '../../../assets/images/portraits/polaroid.jpg',
+      imageAlt: '',
+      ratio: Ratio.Portrait,
+    },
+    {
+      imageSrc: '../../../assets/images/portraits/red_balloon_by_lamp_post.jpg',
+      imageAlt: '',
+      ratio: Ratio.Portrait,
+    },
+    {
+      imageSrc: '../../../assets/images/portraits/red_balloon_in_graveyard.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
       imageSrc:
-        '../../../../../assets/images/portraits/red_balloon_by_lamp_post.jpg',
+        '../../../assets/images/portraits/red_balloon_in_wheel_barrow.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc:
-        '../../../../../assets/images/portraits/red_balloon_in_graveyard.jpg',
+      imageSrc: '../../../assets/images/portraits/red_balloon_on_bench.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc:
-        '../../../../../assets/images/portraits/red_balloon_in_wheel_barrow.jpg',
+      imageSrc: '../../../assets/images/portraits/red_balloon_on_chair.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc:
-        '../../../../../assets/images/portraits/red_balloon_on_bench.jpg',
+      imageSrc: '../../../assets/images/portraits/reflection.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc:
-        '../../../../../assets/images/portraits/red_balloon_on_chair.jpg',
-      imageAlt: '',
-      ratio: Ratio.Portrait,
-    },
-    {
-      imageSrc: '../../../../../assets/images/portraits/reflection.jpg',
-      imageAlt: '',
-      ratio: Ratio.Portrait,
-    },
-    {
-      imageSrc: '../../../../../assets/images/portraits/repeated_hands.jpg',
+      imageSrc: '../../../assets/images/portraits/repeated_hands.jpg',
       imageAlt: '',
       ratio: Ratio.Square,
     },
     {
-      imageSrc: '../../../../../assets/images/portraits/sam_1.jpg',
+      imageSrc: '../../../assets/images/portraits/sam_1.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc: '../../../../../assets/images/portraits/scream.jpg',
+      imageSrc: '../../../assets/images/portraits/scream.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc: '../../../../../assets/images/portraits/slice.jpg',
+      imageSrc: '../../../assets/images/portraits/slice.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc: '../../../../../assets/images/portraits/steel_wool_chloe.jpg',
+      imageSrc: '../../../assets/images/portraits/steel_wool_chloe.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
     },
     {
-      imageSrc: '../../../../../assets/images/portraits/tree_overlay.jpg',
+      imageSrc: '../../../assets/images/portraits/tree_overlay.jpg',
       imageAlt: '',
       ratio: Ratio.Square,
     },
     {
-      imageSrc: '../../../../../assets/images/portraits/tunnel_facing_away.jpg',
+      imageSrc: '../../../assets/images/portraits/tunnel_facing_away.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
     },
     {
-      imageSrc:
-        '../../../../../assets/images/portraits/tunnel_facing_forwards.jpg',
+      imageSrc: '../../../assets/images/portraits/tunnel_facing_forwards.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
     },
     {
-      imageSrc: '../../../../../assets/images/portraits/vertical_slice.jpg',
+      imageSrc: '../../../assets/images/portraits/vertical_slice.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc: '../../../../../assets/images/portraits/viki_and_charlie.jpg',
+      imageSrc: '../../../assets/images/portraits/viki_and_charlie.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc: '../../../../../assets/images/portraits/viki_blue_light.jpg',
+      imageSrc: '../../../assets/images/portraits/viki_blue_light.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc: '../../../../../assets/images/portraits/viki_pink_wire.jpg',
+      imageSrc: '../../../assets/images/portraits/viki_pink_wire.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc: '../../../../../assets/images/portraits/viki_pool.jpg',
+      imageSrc: '../../../assets/images/portraits/viki_pool.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
     },
     {
-      imageSrc: '../../../../../assets/images/portraits/weathered_hands.jpg',
+      imageSrc: '../../../assets/images/portraits/weathered_hands.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
     },

@@ -2,39 +2,21 @@ import { Component, OnInit } from '@angular/core';
 import { Ratio } from 'src/app/common/ratio.enum';
 
 @Component({
-  selector: 'app-still-life-content',
-  templateUrl: './still-life-content.component.html',
-  styleUrls: ['./still-life-content.component.css'],
+  selector: 'paris-content',
+  templateUrl: './paris-content.component.html',
+  styleUrls: ['./paris-content.component.css'],
 })
-export class StillLifeContentComponent implements OnInit {
+export class ParisContentComponent implements OnInit {
   carouselImages = [
     {
       imageSrc: '../../../assets/images/still_life/pocket_watch_1.jpg',
       imageAlt: '',
     },
-    {
-      imageSrc: '../../../assets/images/still_life/victory_tin.jpg',
-      imageAlt: '',
-    },
-    {
-      imageSrc: '../../../assets/images/still_life/warwick_camera.jpg',
-      imageAlt: '',
-    },
-    {
-      imageSrc: '../../../assets/images/still_life/cogs_1.jpg',
-      imageAlt: '',
-    },
   ];
 
-  galleryTitle = 'Still Life Gallery';
+  galleryTitle = 'Paris Gallery';
 
-  galleryText = [
-    'Here are a selection of some of my favourite still life images, demonstrating the different styles and techniques that I use in my work.',
-    "Still life photography is one of my favourite areas of photography. I enjoy the setup required for these kind of images, taking into consideration all sorts of different creative elements to enhance and perfect an image. Unlike portrait images, still life objects don't move - making the setup a lot easier!",
-    'At A-Level I was able to experiment with a range of different photographic techniques, and apply these to all sorts of still life objects. From shells, to roses, to old tins, I was able to create well balanced images from a range of different objects found in and around the house.',
-    'I also enjoyed experimenting with depth of field to create different effects. Using a 50mm lens, I was able to achieve an extremely shallow depth of field, helping me to create unique and interesting images that lead the viewer in.',
-    'As well as in camera experimentation, I also trialled different Photoshop techniques. This included levels adjustments to create more well-balanced images, and image stacking to apply weird and wonderful effects!',
-  ];
+  galleryText = ['Some text about Paris'];
 
   allImages = [
     {

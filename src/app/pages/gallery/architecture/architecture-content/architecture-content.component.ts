@@ -9,21 +9,20 @@ import { Ratio } from 'src/app/common/ratio.enum';
 export class ArchitectureContentComponent implements OnInit {
   carouselImages = [
     {
-      imageSrc: '../../../../../assets/images/architecture/fence_swirls.jpg',
+      imageSrc: '../../../assets/images/architecture/fence_swirls.jpg',
+      imageAlt: '',
+    },
+    {
+      imageSrc: '../../../assets/images/architecture/budapest_suburbs.jpg',
+      imageAlt: '',
+    },
+    {
+      imageSrc: '../../../assets/images/architecture/cabot_circus_1.jpg',
       imageAlt: '',
     },
     {
       imageSrc:
-        '../../../../../assets/images/architecture/budapest_suburbs.jpg',
-      imageAlt: '',
-    },
-    {
-      imageSrc: '../../../../../assets/images/architecture/cabot_circus_1.jpg',
-      imageAlt: '',
-    },
-    {
-      imageSrc:
-        '../../../../../assets/images/architecture/wire_wool_abandoned_hotel_2.jpg',
+        '../../../assets/images/architecture/wire_wool_abandoned_hotel_2.jpg',
       imageAlt: '',
     },
   ];
@@ -39,128 +38,124 @@ export class ArchitectureContentComponent implements OnInit {
 
   allImages = [
     {
-      imageSrc:
-        '../../../../../assets/images/architecture/avebury_grave_stone.jpg',
+      imageSrc: '../../../assets/images/architecture/avebury_grave_stone.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc: '../../../../../assets/images/architecture/brunel_car_park.jpg',
+      imageSrc: '../../../assets/images/architecture/brunel_car_park.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc:
-        '../../../../../assets/images/architecture/budapest_streets.jpg',
+      imageSrc: '../../../assets/images/architecture/budapest_streets.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc:
-        '../../../../../assets/images/architecture/budapest_suburbs.jpg',
+      imageSrc: '../../../assets/images/architecture/budapest_suburbs.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc: '../../../../../assets/images/architecture/cabot_circus_1.jpg',
+      imageSrc: '../../../assets/images/architecture/cabot_circus_1.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc: '../../../../../assets/images/architecture/cabot_circus_2.jpg',
+      imageSrc: '../../../assets/images/architecture/cabot_circus_2.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc: '../../../../../assets/images/architecture/cabot_circus_3.jpg',
-      imageAlt: '',
-      ratio: Ratio.Portrait,
-    },
-    {
-      imageSrc:
-        '../../../../../assets/images/architecture/coate_water_diving_board.jpg',
+      imageSrc: '../../../assets/images/architecture/cabot_circus_3.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
       imageSrc:
-        '../../../../../assets/images/architecture/fairy_lights_abandoned_hotel.jpg',
+        '../../../assets/images/architecture/coate_water_diving_board.jpg',
+      imageAlt: '',
+      ratio: Ratio.Portrait,
+    },
+    {
+      imageSrc:
+        '../../../assets/images/architecture/fairy_lights_abandoned_hotel.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
     },
     {
-      imageSrc: '../../../../../assets/images/architecture/fence_swirls.jpg',
+      imageSrc: '../../../assets/images/architecture/fence_swirls.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc: '../../../../../assets/images/architecture/lacock_abbey_1.jpg',
+      imageSrc: '../../../assets/images/architecture/lacock_abbey_1.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
     },
     {
-      imageSrc: '../../../../../assets/images/architecture/lacock_abbey_2.jpg',
+      imageSrc: '../../../assets/images/architecture/lacock_abbey_2.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc: '../../../../../assets/images/architecture/lacock_abbey_3.jpg',
+      imageSrc: '../../../assets/images/architecture/lacock_abbey_3.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc: '../../../../../assets/images/architecture/lacock_abbey_4.jpg',
+      imageSrc: '../../../assets/images/architecture/lacock_abbey_4.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
+    },
+    {
+      imageSrc: '../../../assets/images/architecture/lacock_abbey_cauldren.jpg',
+      imageAlt: '',
+      ratio: Ratio.Portrait,
+    },
+    {
+      imageSrc: '../../../assets/images/architecture/mirrored_bridge.jpg',
+      imageAlt: '',
+      ratio: Ratio.Landscape,
+    },
+    {
+      imageSrc: '../../../assets/images/architecture/no_parking.jpg',
+      imageAlt: '',
+      ratio: Ratio.Landscape,
+    },
+    {
+      imageSrc: '../../../assets/images/architecture/swindon_tower.jpg',
+      imageAlt: '',
+      ratio: Ratio.Portrait,
     },
     {
       imageSrc:
-        '../../../../../assets/images/architecture/lacock_abbey_cauldren.jpg',
-      imageAlt: '',
-      ratio: Ratio.Portrait,
-    },
-    {
-      imageSrc: '../../../../../assets/images/architecture/mirrored_bridge.jpg',
-      imageAlt: '',
-      ratio: Ratio.Landscape,
-    },
-    {
-      imageSrc: '../../../../../assets/images/architecture/no_parking.jpg',
-      imageAlt: '',
-      ratio: Ratio.Landscape,
-    },
-    {
-      imageSrc: '../../../../../assets/images/architecture/swindon_tower.jpg',
-      imageAlt: '',
-      ratio: Ratio.Portrait,
-    },
-    {
-      imageSrc:
-        '../../../../../assets/images/architecture/town_gardens_pavillion.jpg',
+        '../../../assets/images/architecture/town_gardens_pavillion.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
     },
     {
       imageSrc:
-        '../../../../../assets/images/architecture/wire_wool_abandoned_hotel_1.jpg',
+        '../../../assets/images/architecture/wire_wool_abandoned_hotel_1.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
     },
     {
       imageSrc:
-        '../../../../../assets/images/architecture/wire_wool_abandoned_hotel_2.jpg',
+        '../../../assets/images/architecture/wire_wool_abandoned_hotel_2.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
     },
     {
       imageSrc:
-        '../../../../../assets/images/architecture/wire_wool_abandoned_hotel_3.jpg',
+        '../../../assets/images/architecture/wire_wool_abandoned_hotel_3.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
     },
     {
       imageSrc:
-        '../../../../../assets/images/architecture/wire_wool_abandoned_hotel_4.jpg',
+        '../../../assets/images/architecture/wire_wool_abandoned_hotel_4.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
     },

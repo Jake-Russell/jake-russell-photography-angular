@@ -20,7 +20,7 @@ export class TravelContentComponent implements OnInit {
       labelSrc: '../../../../assets/images/labels/travel_paris_label.png',
       labelHoverSrc:
         '../../../../assets/images/labels/travel_paris_label_hover.png',
-      galleryUrl: '/about',
+      galleryUrl: '/gallery/travel/paris',
     },
   ];
 

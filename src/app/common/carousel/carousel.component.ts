@@ -2,7 +2,7 @@ import { Component, Input, OnInit } from '@angular/core';
 import { Image } from '../../image.model';
 
 @Component({
-  selector: 'app-carousel',
+  selector: 'carousel',
   templateUrl: './carousel.component.html',
   styleUrls: ['./carousel.component.css'],
 })

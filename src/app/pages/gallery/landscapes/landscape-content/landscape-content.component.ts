@@ -10,21 +10,20 @@ export class LandscapeContentComponent implements OnInit {
   carouselImages = [
     {
       imageSrc:
-        '../../../../../assets/images/landscapes/star_trails_great_coxwell.jpg',
+        '../../../assets/images/landscapes/star_trails_great_coxwell.jpg',
       imageAlt: '',
     },
     {
-      imageSrc: '../../../../../assets/images/landscapes/snowdonia_2.jpg',
-      imageAlt: '',
-    },
-    {
-      imageSrc:
-        '../../../../../assets/images/landscapes/car_light_trails_south_cerney.jpg',
+      imageSrc: '../../../assets/images/landscapes/snowdonia_2.jpg',
       imageAlt: '',
     },
     {
       imageSrc:
-        '../../../../../assets/images/landscapes/sunset_white_horse_hill.jpg',
+        '../../../assets/images/landscapes/car_light_trails_south_cerney.jpg',
+      imageAlt: '',
+    },
+    {
+      imageSrc: '../../../assets/images/landscapes/sunset_white_horse_hill.jpg',
       imageAlt: '',
     },
   ];
@@ -40,200 +39,192 @@ export class LandscapeContentComponent implements OnInit {
 
   allImages = [
     {
-      imageSrc: '../../../../../assets/images/landscapes/abandoned_barn_1.jpg',
+      imageSrc: '../../../assets/images/landscapes/abandoned_barn_1.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
     },
     {
       imageSrc:
-        '../../../../../assets/images/landscapes/abandoned_hotel_south_marston.jpg',
+        '../../../assets/images/landscapes/abandoned_hotel_south_marston.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
     },
     {
-      imageSrc: '../../../../../assets/images/landscapes/avebury_stones_1.jpg',
+      imageSrc: '../../../assets/images/landscapes/avebury_stones_1.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc: '../../../../../assets/images/landscapes/avebury_stones_2.jpg',
+      imageSrc: '../../../assets/images/landscapes/avebury_stones_2.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
     },
     {
-      imageSrc: '../../../../../assets/images/landscapes/avebury_stones_3.jpg',
+      imageSrc: '../../../assets/images/landscapes/avebury_stones_3.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc: '../../../../../assets/images/landscapes/avebury_stones_4.jpg',
+      imageSrc: '../../../assets/images/landscapes/avebury_stones_4.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
     },
     {
-      imageSrc: '../../../../../assets/images/landscapes/avebury_stones_5.jpg',
+      imageSrc: '../../../assets/images/landscapes/avebury_stones_5.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
     },
     {
-      imageSrc: '../../../../../assets/images/landscapes/budapest_panorama.jpg',
+      imageSrc: '../../../assets/images/landscapes/budapest_panorama.jpg',
       imageAlt: '',
       ratio: Ratio.Panorama,
     },
     {
       imageSrc:
-        '../../../../../assets/images/landscapes/car_light_trails_cirencester.jpg',
+        '../../../assets/images/landscapes/car_light_trails_cirencester.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
     },
     {
       imageSrc:
-        '../../../../../assets/images/landscapes/car_light_trails_south_cerney.jpg',
+        '../../../assets/images/landscapes/car_light_trails_south_cerney.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
     },
     {
       imageSrc:
-        '../../../../../assets/images/landscapes/clifton_suspension_bridge_panorama.jpg',
+        '../../../assets/images/landscapes/clifton_suspension_bridge_panorama.jpg',
       imageAlt: '',
       ratio: Ratio.Panorama,
     },
     {
-      imageSrc: '../../../../../assets/images/landscapes/coate_water_dock.jpg',
+      imageSrc: '../../../assets/images/landscapes/coate_water_dock.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
     },
     {
-      imageSrc: '../../../../../assets/images/landscapes/coate_water.jpg',
-      imageAlt: '',
-      ratio: Ratio.Landscape,
-    },
-    {
-      imageSrc:
-        '../../../../../assets/images/landscapes/crystal_ball_coate_water.jpg',
+      imageSrc: '../../../assets/images/landscapes/coate_water.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
     },
     {
       imageSrc:
-        '../../../../../assets/images/landscapes/david_hockney_church.jpg',
+        '../../../assets/images/landscapes/crystal_ball_coate_water.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
     },
     {
-      imageSrc:
-        '../../../../../assets/images/landscapes/geometric_rotation.jpg',
+      imageSrc: '../../../assets/images/landscapes/david_hockney_church.jpg',
+      imageAlt: '',
+      ratio: Ratio.Landscape,
+    },
+    {
+      imageSrc: '../../../assets/images/landscapes/geometric_rotation.jpg',
       imageAlt: '',
       ratio: Ratio.Square,
     },
     {
-      imageSrc: '../../../../../assets/images/landscapes/orb_and_el_wire.jpg',
+      imageSrc: '../../../assets/images/landscapes/orb_and_el_wire.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
     },
     {
-      imageSrc: '../../../../../assets/images/landscapes/polaroid.jpg',
+      imageSrc: '../../../assets/images/landscapes/polaroid.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
     },
     {
-      imageSrc: '../../../../../assets/images/landscapes/snowdonia_1.jpg',
+      imageSrc: '../../../assets/images/landscapes/snowdonia_1.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc: '../../../../../assets/images/landscapes/snowdonia_2.jpg',
+      imageSrc: '../../../assets/images/landscapes/snowdonia_2.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
     },
     {
-      imageSrc: '../../../../../assets/images/landscapes/snowdonia_3.jpg',
+      imageSrc: '../../../assets/images/landscapes/snowdonia_3.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
     },
     {
-      imageSrc: '../../../../../assets/images/landscapes/snowflakes.jpg',
+      imageSrc: '../../../assets/images/landscapes/snowflakes.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
     },
     {
-      imageSrc: '../../../../../assets/images/landscapes/spin.jpg',
+      imageSrc: '../../../assets/images/landscapes/spin.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
     },
     {
-      imageSrc:
-        '../../../../../assets/images/landscapes/star_trails_fernham.jpg',
-      imageAlt: '',
-      ratio: Ratio.Landscape,
-    },
-    {
-      imageSrc:
-        '../../../../../assets/images/landscapes/star_trails_great_coxwell.jpg',
-      imageAlt: '',
-      ratio: Ratio.Landscape,
-    },
-    {
-      imageSrc: '../../../../../assets/images/landscapes/star_trails_tree.jpg',
+      imageSrc: '../../../assets/images/landscapes/star_trails_fernham.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
     },
     {
       imageSrc:
-        '../../../../../assets/images/landscapes/star_trails_white_horse_hill.jpg',
+        '../../../assets/images/landscapes/star_trails_great_coxwell.jpg',
+      imageAlt: '',
+      ratio: Ratio.Landscape,
+    },
+    {
+      imageSrc: '../../../assets/images/landscapes/star_trails_tree.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
     },
     {
       imageSrc:
-        '../../../../../assets/images/landscapes/sunset_burial_ground.jpg',
+        '../../../assets/images/landscapes/star_trails_white_horse_hill.jpg',
+      imageAlt: '',
+      ratio: Ratio.Landscape,
+    },
+    {
+      imageSrc: '../../../assets/images/landscapes/sunset_burial_ground.jpg',
+      imageAlt: '',
+      ratio: Ratio.Landscape,
+    },
+    {
+      imageSrc: '../../../assets/images/landscapes/sunset_white_horse_hill.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
     },
     {
       imageSrc:
-        '../../../../../assets/images/landscapes/sunset_white_horse_hill.jpg',
+        '../../../assets/images/travel/paris/arc_de_triomphe_1_black_and_white.jpg',
+      imageAlt: '',
+      ratio: Ratio.Landscape,
+    },
+    {
+      imageSrc: '../../../assets/images/travel/paris/arc_de_triomphe_1.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
     },
     {
       imageSrc:
-        '../../../../../assets/images/travel/paris/arc_de_triomphe_1_black_and_white.jpg',
+        '../../../assets/images/travel/paris/arc_de_triomphe_2_black_and_white.jpg',
+      imageAlt: '',
+      ratio: Ratio.Landscape,
+    },
+    {
+      imageSrc: '../../../assets/images/travel/paris/arc_de_triomphe_2.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
     },
     {
       imageSrc:
-        '../../../../../assets/images/travel/paris/arc_de_triomphe_1.jpg',
-      imageAlt: '',
-      ratio: Ratio.Landscape,
-    },
-    {
-      imageSrc:
-        '../../../../../assets/images/travel/paris/arc_de_triomphe_2_black_and_white.jpg',
-      imageAlt: '',
-      ratio: Ratio.Landscape,
-    },
-    {
-      imageSrc:
-        '../../../../../assets/images/travel/paris/arc_de_triomphe_2.jpg',
-      imageAlt: '',
-      ratio: Ratio.Landscape,
-    },
-    {
-      imageSrc:
-        '../../../../../assets/images/travel/paris/arc_de_triomphe_3_black_and_white.jpg',
+        '../../../assets/images/travel/paris/arc_de_triomphe_3_black_and_white.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc:
-        '../../../../../assets/images/travel/paris/arc_de_triomphe_3.jpg',
+      imageSrc: '../../../assets/images/travel/paris/arc_de_triomphe_3.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc: '../../../../../assets/images/travel/paris/car_trails.jpg',
+      imageSrc: '../../../assets/images/travel/paris/car_trails.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
     },
