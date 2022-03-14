@@ -23,7 +23,7 @@
     <img
       [src]="image.imageSrc"
       [alt]="image.imageAlt"
-      [ngClass]="{ landscape: image.landscape }"
+      [ngClass]="{ panorama: image.ratio == 'four-by-one' }"
     />
   </li>
 </ul>

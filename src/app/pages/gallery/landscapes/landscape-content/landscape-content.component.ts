@@ -196,6 +196,47 @@ export class LandscapeContentComponent implements OnInit {
       imageAlt: '',
       ratio: Ratio.Landscape,
     },
+    {
+      imageSrc:
+        '../../../../../assets/images/travel/paris/arc_de_triomphe_1_black_and_white.jpg',
+      imageAlt: '',
+      ratio: Ratio.Landscape,
+    },
+    {
+      imageSrc:
+        '../../../../../assets/images/travel/paris/arc_de_triomphe_1.jpg',
+      imageAlt: '',
+      ratio: Ratio.Landscape,
+    },
+    {
+      imageSrc:
+        '../../../../../assets/images/travel/paris/arc_de_triomphe_2_black_and_white.jpg',
+      imageAlt: '',
+      ratio: Ratio.Landscape,
+    },
+    {
+      imageSrc:
+        '../../../../../assets/images/travel/paris/arc_de_triomphe_2.jpg',
+      imageAlt: '',
+      ratio: Ratio.Landscape,
+    },
+    {
+      imageSrc:
+        '../../../../../assets/images/travel/paris/arc_de_triomphe_3_black_and_white.jpg',
+      imageAlt: '',
+      ratio: Ratio.Portrait,
+    },
+    {
+      imageSrc:
+        '../../../../../assets/images/travel/paris/arc_de_triomphe_3.jpg',
+      imageAlt: '',
+      ratio: Ratio.Portrait,
+    },
+    {
+      imageSrc: '../../../../../assets/images/travel/paris/car_trails.jpg',
+      imageAlt: '',
+      ratio: Ratio.Landscape,
+    },
   ];
 
   constructor() {}

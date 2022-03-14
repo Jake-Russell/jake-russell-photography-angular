@@ -28,8 +28,8 @@ import { TravelContentComponent } from './pages/gallery/travel/travel-content/tr
 import { StillLifeContentComponent } from './pages/gallery/still-life/still-life-content/still-life-content.component';
 import { ArchitectureContentComponent } from './pages/gallery/architecture/architecture-content/architecture-content.component';
 import { AutomotiveContentComponent } from './pages/gallery/automotive/automotive-content/automotive-content.component';
-import { HomePhotosListComponent } from './pages/home/home-photos-list/home-photos-list.component';
-import { HomePhotoThumbnailComponent } from './pages/home/home-photo-thumbnail/home-photo-thumbnail.component';
+import { PhotoListComponent } from './common/photo-list/photo-list.component';
+import { PhotoThumbnailComponent } from './common/photo-list/photo-thumbnail/photo-thumbnail.component';
 import { CarouselComponent } from './common/carousel/carousel.component';
 import { ImageGalleryComponent } from './common/image-gallery/image-gallery.component';
 import { ImageViewerComponent } from './common/image-viewer/image-viewer.component';
@@ -51,8 +51,8 @@ import { TopGalleryComponent } from './common/top-gallery/top-gallery.component'
     StillLifeContentComponent,
     ArchitectureContentComponent,
     AutomotiveContentComponent,
-    HomePhotosListComponent,
-    HomePhotoThumbnailComponent,
+    PhotoListComponent,
+    PhotoThumbnailComponent,
     CarouselComponent,
     ImageGalleryComponent,
     ImageViewerComponent,

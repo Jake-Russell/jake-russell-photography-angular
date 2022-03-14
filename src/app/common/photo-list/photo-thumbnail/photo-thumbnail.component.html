@@ -1,0 +1,12 @@
+<div
+  class="homeImageContainer"
+  routerLink="/gallery/{{ imageThumbnail.galleryName }}"
+>
+  <img class="homeImage" [src]="imageThumbnail.imageSrc" alt="" />
+  <img class="homeImageLabel label" [src]="imageThumbnail.labelSrc" alt="" />
+  <img
+    class="homeImageLabel labelHovered"
+    [src]="imageThumbnail.labelHoverSrc"
+    alt=""
+  />
+</div>

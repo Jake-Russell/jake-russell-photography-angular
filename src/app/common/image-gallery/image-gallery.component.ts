@@ -16,7 +16,6 @@ export class ImageGalleryComponent implements OnInit {
   ngOnInit(): void {}
 
   click(image: Image, index: number) {
-    var panelClass = image.landscape == true ? 'landscape' : 'portrait';
     console.log(`Ratio is ${image.ratio}`);
 
     const dialogRef = this.dialog.open(ImageViewerComponent, {

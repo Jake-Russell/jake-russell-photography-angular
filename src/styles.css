@@ -23,7 +23,7 @@ body {
 
 .six-by-four,
 .four-by-six,
-.sixteen-by-nine,
+.four-by-one,
 .one-by-one {
   max-width: 90vw;
   max-height: 90vh;
@@ -37,9 +37,9 @@ body {
   aspect-ratio: 4 / 6;
 }
 
-.sixteen-by-nine {
+/* .four-by-one {
   aspect-ratio: 4 / 1;
-}
+} */
 
 .one-by-one {
   aspect-ratio: 1 / 1;
