@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Ratio } from 'src/app/common/ratio.enum';
 
 @Component({
-  selector: 'app-portrait-content',
+  selector: 'portrait-content',
   templateUrl: './portrait-content.component.html',
   styleUrls: ['./portrait-content.component.css'],
 })

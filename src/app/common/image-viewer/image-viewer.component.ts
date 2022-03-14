@@ -3,7 +3,7 @@ import { MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { Image } from '../../image.model';
 
 @Component({
-  selector: 'app-image-viewer',
+  selector: 'image-viewer',
   templateUrl: './image-viewer.component.html',
   styleUrls: ['./image-viewer.component.css'],
 })

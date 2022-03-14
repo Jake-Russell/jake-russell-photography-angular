@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Ratio } from 'src/app/common/ratio.enum';
 
 @Component({
-  selector: 'app-architecture-content',
+  selector: 'architecture-content',
   templateUrl: './architecture-content.component.html',
   styleUrls: ['./architecture-content.component.css'],
 })
@@ -13,7 +13,7 @@ export class ArchitectureContentComponent implements OnInit {
       imageAlt: '',
     },
     {
-      imageSrc: '../../../assets/images/architecture/budapest_suburbs.jpg',
+      imageSrc: '../../../assets/images/travel/budapest/budapest_suburbs.jpg',
       imageAlt: '',
     },
     {
@@ -48,12 +48,12 @@ export class ArchitectureContentComponent implements OnInit {
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc: '../../../assets/images/architecture/budapest_streets.jpg',
+      imageSrc: '../../../assets/images/travel/budapest/budapest_streets.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc: '../../../assets/images/architecture/budapest_suburbs.jpg',
+      imageSrc: '../../../assets/images/travel/budapest/budapest_suburbs.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },

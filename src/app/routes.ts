@@ -10,6 +10,7 @@ import { PortraitContentComponent } from './pages/gallery/portraits/portrait-con
 import { StillLifeContentComponent } from './pages/gallery/still-life/still-life-content/still-life-content.component';
 import { TravelContentComponent } from './pages/gallery/travel/travel-content/travel-content.component';
 import { ParisContentComponent } from './pages/gallery/travel/paris-content/paris-content.component';
+import { BudapestContentComponent } from './pages/gallery/travel/budapest-content/budapest-content.component';
 
 export const appRoutes: Routes = [
   { path: 'home', component: HomeContentComponent },
@@ -22,6 +23,7 @@ export const appRoutes: Routes = [
   { path: 'gallery/still_life', component: StillLifeContentComponent },
   { path: 'gallery/travel', component: TravelContentComponent },
   { path: 'gallery/travel/paris', component: ParisContentComponent },
+  { path: 'gallery/travel/budapest', component: BudapestContentComponent },
   { path: '404', component: PageNotFoundComponent },
   { path: '**', redirectTo: 'home', pathMatch: 'full' },
 ];

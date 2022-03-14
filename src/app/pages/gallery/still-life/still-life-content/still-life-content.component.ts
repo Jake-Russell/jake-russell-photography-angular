@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Ratio } from 'src/app/common/ratio.enum';
 
 @Component({
-  selector: 'app-still-life-content',
+  selector: 'still-life-content',
   templateUrl: './still-life-content.component.html',
   styleUrls: ['./still-life-content.component.css'],
 })

@@ -35,6 +35,7 @@ import { ImageGalleryComponent } from './common/image-gallery/image-gallery.comp
 import { ImageViewerComponent } from './common/image-viewer/image-viewer.component';
 import { TopGalleryComponent } from './common/top-gallery/top-gallery.component';
 import { ParisContentComponent } from './pages/gallery/travel/paris-content/paris-content.component';
+import { BudapestContentComponent } from './pages/gallery/travel/budapest-content/budapest-content.component';
 
 @NgModule({
   declarations: [
@@ -59,6 +60,7 @@ import { ParisContentComponent } from './pages/gallery/travel/paris-content/pari
     ImageViewerComponent,
     TopGalleryComponent,
     ParisContentComponent,
+    BudapestContentComponent,
   ],
   imports: [
     RouterModule.forRoot(appRoutes),

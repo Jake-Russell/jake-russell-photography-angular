@@ -9,28 +9,29 @@ import { ImageThumbnail } from 'src/app/image-thumbnail.model';
 export class HomeContentComponent implements OnInit {
   photoListImages: ImageThumbnail[] = [
     {
-      imageSrc: '../../../../assets/images/home_images/portrait.jpg',
+      imageSrc: '../../../../assets/images/portraits/nan.jpg',
       labelSrc: '../../../../assets/images/labels/portrait_label.png',
       labelHoverSrc:
         '../../../../assets/images/labels/portrait_label_hover.png',
       galleryUrl: '/gallery/portrait',
     },
     {
-      imageSrc: '../../../../assets/images/home_images/architecture.jpg',
+      imageSrc:
+        '../../../../assets/images/travel/budapest/budapest_suburbs.jpg',
       labelSrc: '../../../../assets/images/labels/architecture_label.png',
       labelHoverSrc:
         '../../../../assets/images/labels/architecture_label_hover.png',
       galleryUrl: '/gallery/architecture',
     },
     {
-      imageSrc: '../../../../assets/images/home_images/landscape.jpg',
+      imageSrc: '../../../../assets/images/landscapes/snowdonia_1.jpg',
       labelSrc: '../../../../assets/images/labels/landscape_label.png',
       labelHoverSrc:
         '../../../../assets/images/labels/landscape_label_hover.png',
       galleryUrl: '/gallery/landscape',
     },
     {
-      imageSrc: '../../../../assets/images/home_images/still_life.jpg',
+      imageSrc: '../../../../assets/images/still_life/pocket_watch_1.jpg',
       labelSrc: '../../../../assets/images/labels/still_life_label.png',
       labelHoverSrc:
         '../../../../assets/images/labels/still_life_label_hover.png',

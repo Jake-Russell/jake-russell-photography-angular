@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Ratio } from 'src/app/common/ratio.enum';
 
 @Component({
-  selector: 'app-landscape-content',
+  selector: 'landscape-content',
   templateUrl: './landscape-content.component.html',
   styleUrls: ['./landscape-content.component.css'],
 })
@@ -75,7 +75,7 @@ export class LandscapeContentComponent implements OnInit {
       ratio: Ratio.Landscape,
     },
     {
-      imageSrc: '../../../assets/images/landscapes/budapest_panorama.jpg',
+      imageSrc: '../../../assets/images/travel/budapest/budapest_panorama.jpg',
       imageAlt: '',
       ratio: Ratio.Panorama,
     },
