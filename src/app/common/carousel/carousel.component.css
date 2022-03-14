@@ -24,7 +24,6 @@
 .carousel-container img.image-active {
   display: block;
   margin: auto;
-  /* height: calc(100vh - 120px); */
 }
 
 .carousel-dot-container {
@@ -105,9 +104,4 @@
 
 .icon-carousel:active {
   opacity: 0.5s;
-}
-
-.icon-prev,
-.icon-next {
-  /* font-size: 70px; */
 }
