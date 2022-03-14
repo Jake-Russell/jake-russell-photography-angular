@@ -9,7 +9,7 @@ import { Ratio } from 'src/app/common/ratio.enum';
 export class ParisContentComponent implements OnInit {
   carouselImages = [
     {
-      imageSrc: '../../../assets/images/still_life/pocket_watch_1.jpg',
+      imageSrc: '../../../assets/images/travel/paris/arc_de_triomphe_3.jpg',
       imageAlt: '',
     },
   ];
@@ -20,132 +20,243 @@ export class ParisContentComponent implements OnInit {
 
   allImages = [
     {
-      imageSrc: '../../../assets/images/still_life/arms_around_tree.jpg',
-      imageAlt: '',
-      ratio: Ratio.Portrait,
-    },
-    {
-      imageSrc: '../../../assets/images/still_life/avebury_grave_stone.jpg',
-      imageAlt: '',
-      ratio: Ratio.Portrait,
-    },
-    {
-      imageSrc: '../../../assets/images/still_life/cogs_1.jpg',
-      imageAlt: '',
-      ratio: Ratio.Portrait,
-    },
-    {
-      imageSrc: '../../../assets/images/still_life/cogs_2.jpg',
-      imageAlt: '',
-      ratio: Ratio.Portrait,
-    },
-    {
-      imageSrc: '../../../assets/images/still_life/connected.jpg',
+      imageSrc: '../../../assets/images/travel/paris/car_trails.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
     },
     {
-      imageSrc: '../../../assets/images/still_life/dragon_fly_macro.jpg',
+      imageSrc: '../../../assets/images/travel/paris/louvre_1.jpg',
+      imageAlt: '',
+      ratio: Ratio.Portrait,
+    },
+    {
+      imageSrc:
+        '../../../assets/images/travel/paris/louvre_2_black_and_white.jpg',
+      imageAlt: '',
+      ratio: Ratio.Portrait,
+    },
+    {
+      imageSrc:
+        '../../../assets/images/travel/paris/louvre_3_black_and_white.jpg',
+      imageAlt: '',
+      ratio: Ratio.Portrait,
+    },
+    {
+      imageSrc:
+        '../../../assets/images/travel/paris/louvre_4_black_and_white.jpg',
+      imageAlt: '',
+      ratio: Ratio.Portrait,
+    },
+    {
+      imageSrc: '../../../assets/images/travel/paris/louvre_5.jpg',
+      imageAlt: '',
+      ratio: Ratio.Portrait,
+    },
+    {
+      imageSrc: '../../../assets/images/travel/paris/louvre_6.jpg',
+      imageAlt: '',
+      ratio: Ratio.Portrait,
+    },
+    {
+      imageSrc: '../../../assets/images/travel/paris/louvre_7.jpg',
+      imageAlt: '',
+      ratio: Ratio.Portrait,
+    },
+    {
+      imageSrc:
+        '../../../assets/images/travel/paris/louvre_8_black_and_white.jpg',
+      imageAlt: '',
+      ratio: Ratio.Portrait,
+    },
+    {
+      imageSrc:
+        '../../../assets/images/travel/paris/louvre_9_black_and_white.jpg',
+      imageAlt: '',
+      ratio: Ratio.Portrait,
+    },
+    {
+      imageSrc: '../../../assets/images/travel/paris/paris_streets_1.jpg',
+      imageAlt: '',
+      ratio: Ratio.Portrait,
+    },
+    {
+      imageSrc:
+        '../../../assets/images/travel/paris/paris_streets_2_black_and_white.jpg',
+      imageAlt: '',
+      ratio: Ratio.Portrait,
+    },
+    {
+      imageSrc: '../../../assets/images/travel/paris/sunset_1_portrait.jpg',
+      imageAlt: '',
+      ratio: Ratio.Portrait,
+    },
+    {
+      imageSrc: '../../../assets/images/travel/paris/sunset_2.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
     },
     {
-      imageSrc: '../../../assets/images/still_life/dress_in_tree.jpg',
+      imageSrc: '../../../assets/images/travel/paris/sunset_3.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
     },
     {
-      imageSrc: '../../../assets/images/still_life/fence_swirls.jpg',
+      imageSrc: '../../../assets/images/travel/paris/sunset_4_portrait.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc: '../../../assets/images/still_life/gardening_equipment.jpg',
+      imageSrc: '../../../assets/images/travel/paris/pompidou_centre.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc: '../../../assets/images/still_life/glass_bottles.jpg',
+      imageSrc:
+        '../../../assets/images/travel/paris/paris_streets_3_black_and_white.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc: '../../../assets/images/still_life/heart_shaddow_ring.jpg',
+      imageSrc: '../../../assets/images/travel/paris/paris_streets_4.jpg',
+      imageAlt: '',
+      ratio: Ratio.Portrait,
+    },
+    {
+      imageSrc:
+        '../../../assets/images/travel/paris/paris_streets_5_black_and_white.jpg',
+      imageAlt: '',
+      ratio: Ratio.Portrait,
+    },
+    {
+      imageSrc:
+        '../../../assets/images/travel/paris/sacre_coeur_1_black_and_white.jpg',
+      imageAlt: '',
+      ratio: Ratio.Portrait,
+    },
+    {
+      imageSrc:
+        '../../../assets/images/travel/paris/sacre_coeur_2_black_and_white.jpg',
+      imageAlt: '',
+      ratio: Ratio.Portrait,
+    },
+    {
+      imageSrc: '../../../assets/images/travel/paris/sacre_coeur_3.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
     },
     {
-      imageSrc: '../../../assets/images/still_life/oil_and_water_1.jpg',
+      imageSrc: '../../../assets/images/travel/paris/sacre_coeur_4.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc: '../../../assets/images/still_life/oil_and_water_2.jpg',
+      imageSrc:
+        '../../../assets/images/travel/paris/sacre_coeur_5_black_and_white.jpg',
+      imageAlt: '',
+      ratio: Ratio.Portrait,
+    },
+    {
+      imageSrc: '../../../assets/images/travel/paris/river_seine_1.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
     },
     {
-      imageSrc: '../../../assets/images/still_life/oil_and_water_3.jpg',
+      imageSrc: '../../../assets/images/travel/paris/river_seine_2.jpg',
+      imageAlt: '',
+      ratio: Ratio.Portrait,
+    },
+    {
+      imageSrc: '../../../assets/images/travel/paris/river_seine_3.jpg',
+      imageAlt: '',
+      ratio: Ratio.Portrait,
+    },
+    {
+      imageSrc: '../../../assets/images/travel/paris/river_seine_4.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
     },
     {
-      imageSrc: '../../../assets/images/still_life/old_books.jpg',
+      imageSrc: '../../../assets/images/travel/paris/river_seine_5.jpg',
+      imageAlt: '',
+      ratio: Ratio.Portrait,
+    },
+    {
+      imageSrc:
+        '../../../assets/images/travel/paris/eiffel_tower_1_black_and_white.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
     },
     {
-      imageSrc: '../../../assets/images/still_life/passport_and_travel.jpg',
+      imageSrc: '../../../assets/images/travel/paris/eiffel_tower_1.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
     },
     {
-      imageSrc: '../../../assets/images/still_life/pocket_watch_1.jpg',
-      imageAlt: '',
-      ratio: Ratio.Portrait,
-    },
-    {
-      imageSrc: '../../../assets/images/still_life/pocket_watch_2.jpg',
-      imageAlt: '',
-      ratio: Ratio.Portrait,
-    },
-    {
-      imageSrc: '../../../assets/images/still_life/rose.jpg',
-      imageAlt: '',
-      ratio: Ratio.Portrait,
-    },
-    {
-      imageSrc: '../../../assets/images/still_life/rotting_apples.jpg',
+      imageSrc: '../../../assets/images/travel/paris/eiffel_tower_2.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
     },
     {
-      imageSrc: '../../../assets/images/still_life/shells.jpg',
+      imageSrc: '../../../assets/images/travel/paris/eiffel_tower_3.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
     },
     {
-      imageSrc: '../../../assets/images/still_life/stamp.jpg',
+      imageSrc:
+        '../../../assets/images/travel/paris/eiffel_tower_4_black_and_white.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc: '../../../assets/images/still_life/train_carriage.jpg',
+      imageSrc: '../../../assets/images/travel/paris/eiffel_tower_4.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc: '../../../assets/images/still_life/tree_lights.jpg',
+      imageSrc: '../../../assets/images/travel/paris/eiffel_tower_5.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc: '../../../assets/images/still_life/victory_tin.jpg',
+      imageSrc: '../../../assets/images/travel/paris/eiffel_tower_6.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc: '../../../assets/images/still_life/warwick_camera.jpg',
+      imageSrc:
+        '../../../assets/images/travel/paris/eiffel_tower_7_black_and_white.jpg',
+      imageAlt: '',
+      ratio: Ratio.Portrait,
+    },
+    {
+      imageSrc: '../../../assets/images/travel/paris/eiffel_tower_7.jpg',
+      imageAlt: '',
+      ratio: Ratio.Portrait,
+    },
+    {
+      imageSrc:
+        '../../../assets/images/travel/paris/arc_de_triomphe_1_black_and_white.jpg',
+      imageAlt: '',
+      ratio: Ratio.Landscape,
+    },
+    {
+      imageSrc: '../../../assets/images/travel/paris/arc_de_triomphe_1.jpg',
+      imageAlt: '',
+      ratio: Ratio.Landscape,
+    },
+    {
+      imageSrc: '../../../assets/images/travel/paris/arc_de_triomphe_2.jpg',
+      imageAlt: '',
+      ratio: Ratio.Landscape,
+    },
+    {
+      imageSrc:
+        '../../../assets/images/travel/paris/arc_de_triomphe_3_black_and_white.jpg',
+      imageAlt: '',
+      ratio: Ratio.Portrait,
+    },
+    {
+      imageSrc: '../../../assets/images/travel/paris/arc_de_triomphe_3.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
