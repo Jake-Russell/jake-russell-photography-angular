@@ -93,7 +93,7 @@ export class ParisContentComponent implements OnInit {
     {
       imageSrc: '../../../assets/images/travel/paris/sunset_2.jpg',
       imageAlt: '',
-      ratio: Ratio.Landscape,
+      ratio: Ratio.Portrait,
     },
     {
       imageSrc: '../../../assets/images/travel/paris/sunset_3.jpg',
