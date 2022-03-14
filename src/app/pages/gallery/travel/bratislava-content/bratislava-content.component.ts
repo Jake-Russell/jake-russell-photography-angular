@@ -1,15 +1,32 @@
 import { Component, OnInit } from '@angular/core';
+import { Ratio } from 'src/app/common/ratio.enum';
 
 @Component({
   selector: 'app-bratislava-content',
   templateUrl: './bratislava-content.component.html',
-  styleUrls: ['./bratislava-content.component.css']
+  styleUrls: ['./bratislava-content.component.css'],
 })
 export class BratislavaContentComponent implements OnInit {
+  carouselImages = [
+    {
+      imageSrc: '../../../assets/images/travel/bratislava/bratislava_1.jpg',
+      imageAlt: '',
+    },
+  ];
 
-  constructor() { }
+  galleryTitle = 'Bratislava Gallery';
 
-  ngOnInit(): void {
-  }
+  galleryText = ['Some text about Bratislava'];
 
+  allImages = [
+    {
+      imageSrc: '../../../assets/images/travel/bratislava/bratislava_1.jpg',
+      imageAlt: '',
+      ratio: Ratio.Portrait,
+    },
+  ];
+
+  constructor() {}
+
+  ngOnInit(): void {}
 }
