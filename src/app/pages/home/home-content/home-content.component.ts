@@ -36,6 +36,12 @@ export class HomeContentComponent implements OnInit {
         '../../../../assets/images/labels/still_life_label_hover.png',
       galleryUrl: '/gallery/still_life',
     },
+    {
+      imageSrc: '../../../../assets/images/travel/paris/arc_de_triomphe_3.jpg',
+      labelSrc: '../../../../assets/images/labels/travel_label.png',
+      labelHoverSrc: '../../../../assets/images/labels/travel_label_hover.png',
+      galleryUrl: '/gallery/travel',
+    },
   ];
 
   constructor() {}
