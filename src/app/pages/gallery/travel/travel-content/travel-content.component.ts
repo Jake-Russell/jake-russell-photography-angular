@@ -17,7 +17,7 @@ export class TravelContentComponent implements OnInit {
       galleryUrl: '/gallery/travel/budapest',
     },
     {
-      imageSrc: '../../../../assets/images/travel/bratislava/bratislava_1.jpg',
+      imageSrc: '../../../../assets/images/travel/bratislava/bratislava_12.jpg',
       labelSrc: '../../../../assets/images/labels/travel_bratislava_label.png',
       labelHoverSrc:
         '../../../../assets/images/labels/travel_bratislava_label_hover.png',
