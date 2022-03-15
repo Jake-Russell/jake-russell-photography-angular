@@ -28,13 +28,13 @@ export class BratislavaContentComponent implements OnInit {
       imageSrc:
         '../../../assets/images/travel/bratislava/bratislava_panorama_1.jpg',
       imageAlt: '',
-      ratio: Ratio.Portrait,
+      ratio: Ratio.Panorama,
     },
     {
       imageSrc:
         '../../../assets/images/travel/bratislava/bratislava_panorama_2.jpg',
       imageAlt: '',
-      ratio: Ratio.Portrait,
+      ratio: Ratio.Panorama,
     },
   ];
 
