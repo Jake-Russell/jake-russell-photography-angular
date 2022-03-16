@@ -31,11 +31,19 @@ export class TravelContentComponent implements OnInit {
       galleryUrl: '/gallery/travel/prague',
     },
     {
-      imageSrc: '../../../assets/images/travel/munich/munich_3.jpg',
+      imageSrc: '../../../assets/images/travel/munich/munich_5.jpg',
       labelSrc: '../../../../assets/images/labels/travel_munich_label.png',
       labelHoverSrc:
         '../../../../assets/images/labels/travel_munich_label_hover.png',
       galleryUrl: '/gallery/travel/munich',
+    },
+    {
+      imageSrc:
+        '../../../assets/images/travel/cologne/cologne_7_black_and_white.jpg',
+      labelSrc: '../../../../assets/images/labels/travel_cologne_label.png',
+      labelHoverSrc:
+        '../../../../assets/images/labels/travel_cologne_label_hover.png',
+      galleryUrl: '/gallery/travel/cologne',
     },
     {
       imageSrc: '../../../../assets/images/travel/paris/arc_de_triomphe_3.jpg',
