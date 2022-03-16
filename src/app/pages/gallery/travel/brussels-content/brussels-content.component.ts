@@ -26,9 +26,9 @@ export class BrusselsContentComponent implements OnInit {
     },
   ];
 
-  galleryTitle = 'Bratislava Gallery';
+  galleryTitle = 'Brussels Gallery';
 
-  galleryText = ['Some text about Bratislava'];
+  galleryText = ['Some text about Brussels'];
 
   allImages = [
     {
