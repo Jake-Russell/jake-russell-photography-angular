@@ -15,6 +15,7 @@ import { BratislavaContentComponent } from './pages/gallery/travel/bratislava-co
 import { PragueContentComponent } from './pages/gallery/travel/prague-content/prague-content.component';
 import { MunichContentComponent } from './pages/gallery/travel/munich-content/munich-content.component';
 import { CologneContentComponent } from './pages/gallery/travel/cologne-content/cologne-content.component';
+import { BrusselsContentComponent } from './pages/gallery/travel/brussels-content/brussels-content.component';
 
 export const appRoutes: Routes = [
   { path: 'home', component: HomeContentComponent },
@@ -31,6 +32,7 @@ export const appRoutes: Routes = [
   { path: 'gallery/travel/prague', component: PragueContentComponent },
   { path: 'gallery/travel/munich', component: MunichContentComponent },
   { path: 'gallery/travel/cologne', component: CologneContentComponent },
+  { path: 'gallery/travel/brussels', component: BrusselsContentComponent },
   { path: 'gallery/travel/paris', component: ParisContentComponent },
   { path: '404', component: PageNotFoundComponent },
   { path: '**', redirectTo: 'home', pathMatch: 'full' },
