@@ -31,6 +31,13 @@ export class TravelContentComponent implements OnInit {
       galleryUrl: '/gallery/travel/prague',
     },
     {
+      imageSrc: '../../../assets/images/travel/munich/munich_3.jpg',
+      labelSrc: '../../../../assets/images/labels/travel_munich_label.png',
+      labelHoverSrc:
+        '../../../../assets/images/labels/travel_munich_label_hover.png',
+      galleryUrl: '/gallery/travel/munich',
+    },
+    {
       imageSrc: '../../../../assets/images/travel/paris/arc_de_triomphe_3.jpg',
       labelSrc: '../../../../assets/images/labels/travel_paris_label.png',
       labelHoverSrc:

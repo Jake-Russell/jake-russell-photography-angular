@@ -38,6 +38,7 @@ import { ParisContentComponent } from './pages/gallery/travel/paris-content/pari
 import { BudapestContentComponent } from './pages/gallery/travel/budapest-content/budapest-content.component';
 import { BratislavaContentComponent } from './pages/gallery/travel/bratislava-content/bratislava-content.component';
 import { PragueContentComponent } from './pages/gallery/travel/prague-content/prague-content.component';
+import { MunichContentComponent } from './pages/gallery/travel/munich-content/munich-content.component';
 
 @NgModule({
   declarations: [
@@ -65,6 +66,7 @@ import { PragueContentComponent } from './pages/gallery/travel/prague-content/pr
     BudapestContentComponent,
     BratislavaContentComponent,
     PragueContentComponent,
+    MunichContentComponent,
   ],
   imports: [
     RouterModule.forRoot(appRoutes),
