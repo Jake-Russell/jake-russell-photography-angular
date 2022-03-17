@@ -1,6 +1,6 @@
 .topGalleryContainer {
   display: flex;
-  height: calc(100vh - 75px);
+  min-height: calc(100vh - 75px);
 }
 
 .left,
@@ -10,6 +10,7 @@
 
 .left {
   width: 50%;
+  max-height: 90vh;
 }
 
 .right {
@@ -19,7 +20,7 @@
 @media only screen and (max-width: 640px) {
   .topGalleryContainer {
     display: block;
-    height: 100%;
+    height: auto;
   }
   .left {
     width: 90%;
