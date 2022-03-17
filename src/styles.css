@@ -44,3 +44,8 @@ body {
 .one-by-one {
   aspect-ratio: 1 / 1;
 }
+
+.primaryColour {
+  background-color: #252525;
+  color: white;
+}
