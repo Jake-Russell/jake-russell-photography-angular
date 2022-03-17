@@ -8,6 +8,8 @@ import { Image } from '../../image.model';
 })
 export class TopGalleryComponent implements OnInit {
   @Input() images: Image[] = [];
+  @Input() showAsCarousel: boolean = true;
+  @Input() form: boolean = false;
   @Input() galleryTitle: string = '';
   @Input() galleryText: string[] = [];
 

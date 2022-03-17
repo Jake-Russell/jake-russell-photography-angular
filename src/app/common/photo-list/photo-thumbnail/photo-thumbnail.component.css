@@ -1,4 +1,4 @@
-.homeImageContainer {
+.photoThumbnailContainer {
   position: relative;
   display: flex;
   justify-content: center;
@@ -8,27 +8,27 @@
   margin: 10px 0 0 0;
 }
 
-.homeImage {
+.photoThumbnail {
   width: 100%;
   border-radius: 5px;
 }
 
-.homeImageLabel {
+.photoThumbnailLabel {
   width: 80%;
   position: absolute;
   bottom: 40%;
 }
 
-.homeImageContainer:hover {
+.photoThumbnailContainer:hover {
   cursor: pointer;
 }
 
 .labelHovered,
-.homeImageContainer:hover .label {
+.photoThumbnailContainer:hover .label {
   display: none;
 }
 
 .label,
-.homeImageContainer:hover .labelHovered {
+.photoThumbnailContainer:hover .labelHovered {
   display: block;
 }

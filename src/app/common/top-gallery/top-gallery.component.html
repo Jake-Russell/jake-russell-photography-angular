@@ -1,6 +1,16 @@
 <div class="topGalleryContainer">
   <section class="left">
-    <carousel [images]="images" [autoSlide]="true"></carousel>
+    <carousel
+      *ngIf="showAsCarousel"
+      [images]="images"
+      [autoSlide]="true"
+    ></carousel>
+    <carousel
+      *ngIf="!showAsCarousel"
+      [images]="images"
+      [indicators]="false"
+      [controls]="false"
+    ></carousel>
   </section>
   <section class="right">
     <h1 class="galleryTitle">{{ galleryTitle }}</h1>
