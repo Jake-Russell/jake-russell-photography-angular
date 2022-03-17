@@ -10,7 +10,7 @@
 
 .left {
   width: 50%;
-  max-height: 90vh;
+  max-height: calc(100vh - 115px);
 }
 
 .right {
