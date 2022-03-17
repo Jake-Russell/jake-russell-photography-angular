@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class ContactContentComponent implements OnInit {
   contactImage = [
     {
-      imageSrc: '../../../assets/images/Jake_Russell.JPG',
+      imageSrc: '../../../assets/images/jake_russell.jpg',
       imageAlt: '',
     },
   ];

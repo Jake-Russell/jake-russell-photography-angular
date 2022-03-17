@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { HttpClientModule } from '@angular/common/http';
 
@@ -18,6 +19,8 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
 
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
@@ -45,6 +48,7 @@ import { PragueContentComponent } from './pages/gallery/travel/prague-content/pr
 import { MunichContentComponent } from './pages/gallery/travel/munich-content/munich-content.component';
 import { CologneContentComponent } from './pages/gallery/travel/cologne-content/cologne-content.component';
 import { BrusselsContentComponent } from './pages/gallery/travel/brussels-content/brussels-content.component';
+import { ContactFormComponent } from './contact-form/contact-form.component';
 
 @NgModule({
   declarations: [
@@ -75,12 +79,15 @@ import { BrusselsContentComponent } from './pages/gallery/travel/brussels-conten
     MunichContentComponent,
     CologneContentComponent,
     BrusselsContentComponent,
+    ContactFormComponent,
   ],
   imports: [
     RouterModule.forRoot(appRoutes),
     BrowserModule,
     BrowserAnimationsModule,
     HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule,
     MatToolbarModule,
     MatButtonModule,
     MatIconModule,
@@ -89,6 +96,8 @@ import { BrusselsContentComponent } from './pages/gallery/travel/brussels-conten
     MatDialogModule,
     MatSidenavModule,
     MatListModule,
+    MatFormFieldModule,
+    MatInputModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
