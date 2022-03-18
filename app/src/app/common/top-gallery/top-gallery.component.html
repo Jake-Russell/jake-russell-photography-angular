@@ -1,0 +1,20 @@
+<div class="topGalleryContainer">
+  <section class="left">
+    <carousel
+      *ngIf="showAsCarousel"
+      [images]="images"
+      [autoSlide]="true"
+    ></carousel>
+    <carousel
+      *ngIf="!showAsCarousel"
+      [images]="images"
+      [indicators]="false"
+      [controls]="false"
+    ></carousel>
+  </section>
+  <section class="right">
+    <h1 class="galleryTitle">{{ galleryTitle }}</h1>
+    <p *ngFor="let text of galleryText">{{ text }}</p>
+    <contact-form *ngIf="form"></contact-form>
+  </section>
+</div>

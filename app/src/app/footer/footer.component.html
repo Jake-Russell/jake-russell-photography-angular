@@ -1,0 +1,47 @@
+<div class="footerContainer">
+  <div class="primaryFooter primaryColour">
+    <div class="footerContent">
+      <h2>CONTACT</h2>
+      <p>Please feel free to contact me <a routerLink="/about">here</a></p>
+      <div class="imageContainer">
+        <img
+          class="socialMediaLogo"
+          (click)="
+            redirectToSocialMedia(
+              'https://www.instagram.com/jakerussell.photography/'
+            )
+          "
+          src="../../assets/images/logos/instagram_logo.png"
+          alt=""
+        />
+        <img
+          class="socialMediaLogo"
+          (click)="
+            redirectToSocialMedia('https://www.linkedin.com/in/jcrussell1/')
+          "
+          src="../../assets/images/logos/linkedin_logo.png"
+          alt=""
+        />
+        <img
+          class="socialMediaLogo"
+          (click)="redirectToSocialMedia('https://twitter.com/jakesnaps')"
+          src="../../assets/images/logos/twitter_logo.png"
+          alt=""
+        />
+        <img
+          class="socialMediaLogo"
+          (click)="redirectToSocialMedia('https://500px.com/p/jake_russell1')"
+          src="../../assets/images/logos/500px_logo.png"
+          alt=""
+        />
+      </div>
+    </div>
+  </div>
+  <div class="secondaryFooter secondaryColour">
+    <div class="footerContent">
+      <p>
+        Copyright © 2022 <strong>Jake Russell</strong> | All Rights Reserved
+      </p>
+    </div>
+  </div>
+</div>
