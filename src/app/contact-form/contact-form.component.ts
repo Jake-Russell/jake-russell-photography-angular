@@ -1,27 +1,11 @@
+import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import {
   FormGroup,
-  FormControl,
   FormBuilder,
   Validators,
   FormGroupDirective,
-  NgForm,
 } from '@angular/forms';
-import { ErrorStateMatcher } from '@angular/material/core';
-
-export class MyErrorStateMatcher implements ErrorStateMatcher {
-  isErrorState(
-    control: FormControl | null,
-    form: FormGroupDirective | NgForm | null
-  ): boolean {
-    const isSubmitted = form && form.submitted;
-    return !!(
-      control &&
-      control.invalid &&
-      (control.dirty || control.touched || isSubmitted)
-    );
-  }
-}
 
 @Component({
   selector: 'contact-form',
@@ -29,21 +13,16 @@ export class MyErrorStateMatcher implements ErrorStateMatcher {
   styleUrls: ['./contact-form.component.css'],
 })
 export class ContactFormComponent implements OnInit {
-  // contactForm = new FormGroup({
-  //   name: new FormControl(''),
-  //   email: new FormControl(''),
-  //   subject: new FormControl(''),
-  //   message: new FormControl(''),
-  // });
   contactForm!: FormGroup;
 
-  constructor(private formBuilder: FormBuilder) {}
+  constructor(private formBuilder: FormBuilder, private http: HttpClient) {}
 
   ngOnInit(): void {
-    this.setInitialFormValues();
-  }
+    this.http.post(`http://localhost:4200/api/test`, 'TEST').subscribe(
+      (data) => console.log(data),
+      (error) => console.log('Error! - ', error)
+    );
 
-  setInitialFormValues() {
     this.contactForm = this.formBuilder.group({
       name: ['', Validators.required],
       email: ['', [Validators.required, Validators.email]],
