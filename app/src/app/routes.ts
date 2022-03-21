@@ -16,6 +16,7 @@ import { PragueContentComponent } from './pages/gallery/travel/prague-content/pr
 import { MunichContentComponent } from './pages/gallery/travel/munich-content/munich-content.component';
 import { CologneContentComponent } from './pages/gallery/travel/cologne-content/cologne-content.component';
 import { BrusselsContentComponent } from './pages/gallery/travel/brussels-content/brussels-content.component';
+import { SalonPrive2021ContentComponent } from './pages/gallery/automotive/salon-prive2021-content/salon-prive2021-content.component';
 
 export const appRoutes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -24,6 +25,10 @@ export const appRoutes: Routes = [
   { path: 'contact', component: ContactContentComponent },
   { path: 'gallery/architecture', component: ArchitectureContentComponent },
   { path: 'gallery/automotive', component: AutomotiveContentComponent },
+  {
+    path: 'gallery/automotive/salon_prive_2021',
+    component: SalonPrive2021ContentComponent,
+  },
   { path: 'gallery/landscape', component: LandscapeContentComponent },
   { path: 'gallery/portrait', component: PortraitContentComponent },
   { path: 'gallery/still_life', component: StillLifeContentComponent },

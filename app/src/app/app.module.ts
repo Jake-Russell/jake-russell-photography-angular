@@ -50,6 +50,8 @@ import { MunichContentComponent } from './pages/gallery/travel/munich-content/mu
 import { CologneContentComponent } from './pages/gallery/travel/cologne-content/cologne-content.component';
 import { BrusselsContentComponent } from './pages/gallery/travel/brussels-content/brussels-content.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
+import { SalonPrive2021ContentComponent } from './pages/gallery/automotive/salon-prive2021-content/salon-prive2021-content.component';
+
 
 @NgModule({
   declarations: [
@@ -81,6 +83,7 @@ import { ContactFormComponent } from './contact-form/contact-form.component';
     CologneContentComponent,
     BrusselsContentComponent,
     ContactFormComponent,
+    SalonPrive2021ContentComponent,
   ],
   imports: [
     RouterModule.forRoot(appRoutes),

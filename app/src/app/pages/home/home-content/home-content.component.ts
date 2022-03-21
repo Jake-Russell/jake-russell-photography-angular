@@ -43,6 +43,14 @@ export class HomeContentComponent implements OnInit {
       labelHoverSrc: '../../../../assets/images/labels/travel_label_hover.png',
       galleryUrl: '/gallery/travel',
     },
+    {
+      imageSrc:
+        '../../../../assets/images/automotive/salon_prive_2021/bugatti_chiron_3.jpg',
+      labelSrc: '../../../../assets/images/labels/automotive_label.png',
+      labelHoverSrc:
+        '../../../../assets/images/labels/automotive_label_hover.png',
+      galleryUrl: '/gallery/automotive',
+    },
   ];
 
   constructor() {}

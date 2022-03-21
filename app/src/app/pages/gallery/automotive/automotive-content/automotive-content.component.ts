@@ -11,12 +11,12 @@ export class AutomotiveContentComponent implements OnInit {
   photoListImages: ImageThumbnail[] = [
     {
       imageSrc:
-        '../../../../assets/images/travel/budapest/budapest_suburbs.jpg',
+        '../../../../assets/images/automotive/salon_prive_2021/bugatti_chiron_4.jpg',
       labelSrc:
         '../../../../assets/images/labels/automotive_salon_prive_2021_label.png',
       labelHoverSrc:
         '../../../../assets/images/labels/automotive_salon_prive_2021_label_hover.png',
-      galleryUrl: '/gallery/automotive_salon_prive_2021',
+      galleryUrl: '/gallery/automotive/salon_prive_2021',
     },
   ];
 
