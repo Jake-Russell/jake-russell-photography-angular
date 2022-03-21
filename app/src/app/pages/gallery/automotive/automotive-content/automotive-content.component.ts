@@ -11,7 +11,7 @@ export class AutomotiveContentComponent implements OnInit {
   photoListImages: ImageThumbnail[] = [
     {
       imageSrc:
-        '../../../../assets/images/automotive/salon_prive_2021/bugatti_chiron_4.jpg',
+        '../../../../assets/images/automotive/salon_prive_2021/bugatti_chiron_1.jpg',
       labelSrc:
         '../../../../assets/images/labels/automotive_salon_prive_2021_label.png',
       labelHoverSrc:

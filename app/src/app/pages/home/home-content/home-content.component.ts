@@ -45,7 +45,7 @@ export class HomeContentComponent implements OnInit {
     },
     {
       imageSrc:
-        '../../../../assets/images/automotive/salon_prive_2021/bugatti_chiron_3.jpg',
+        '../../../../assets/images/automotive/salon_prive_2021/bugatti_chiron_1.jpg',
       labelSrc: '../../../../assets/images/labels/automotive_label.png',
       labelHoverSrc:
         '../../../../assets/images/labels/automotive_label_hover.png',
