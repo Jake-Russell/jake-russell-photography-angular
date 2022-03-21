@@ -18,6 +18,7 @@ import { CologneContentComponent } from './pages/gallery/travel/cologne-content/
 import { BrusselsContentComponent } from './pages/gallery/travel/brussels-content/brussels-content.component';
 
 export const appRoutes: Routes = [
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home', component: HomeContentComponent },
   { path: 'about', component: AboutContentComponent },
   { path: 'contact', component: ContactContentComponent },
@@ -35,5 +36,5 @@ export const appRoutes: Routes = [
   { path: 'gallery/travel/brussels', component: BrusselsContentComponent },
   { path: 'gallery/travel/paris', component: ParisContentComponent },
   { path: '404', component: PageNotFoundComponent },
-  { path: '**', redirectTo: 'home', pathMatch: 'full' },
+  { path: '**', redirectTo: '/404' },
 ];
