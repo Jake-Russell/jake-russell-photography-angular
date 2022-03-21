@@ -21,6 +21,13 @@ body {
   padding: 0 !important;
 }
 
+
+
+p {
+  font-size: 1.2rem;
+  line-height: normal;
+}
+
 .six-by-four,
 .four-by-six,
 .four-by-one,
