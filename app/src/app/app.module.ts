@@ -51,6 +51,7 @@ import { CologneContentComponent } from './pages/gallery/travel/cologne-content/
 import { BrusselsContentComponent } from './pages/gallery/travel/brussels-content/brussels-content.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
 import { SalonPrive2021ContentComponent } from './pages/gallery/automotive/salon-prive2021-content/salon-prive2021-content.component';
+import { FerrariRacingDays2021ContentComponent } from './pages/gallery/automotive/ferrari-racing-days2021-content/ferrari-racing-days2021-content.component';
 
 
 @NgModule({
@@ -84,6 +85,7 @@ import { SalonPrive2021ContentComponent } from './pages/gallery/automotive/salon
     BrusselsContentComponent,
     ContactFormComponent,
     SalonPrive2021ContentComponent,
+    FerrariRacingDays2021ContentComponent,
   ],
   imports: [
     RouterModule.forRoot(appRoutes),

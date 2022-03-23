@@ -17,6 +17,7 @@ import { MunichContentComponent } from './pages/gallery/travel/munich-content/mu
 import { CologneContentComponent } from './pages/gallery/travel/cologne-content/cologne-content.component';
 import { BrusselsContentComponent } from './pages/gallery/travel/brussels-content/brussels-content.component';
 import { SalonPrive2021ContentComponent } from './pages/gallery/automotive/salon-prive2021-content/salon-prive2021-content.component';
+import { FerrariRacingDays2021ContentComponent } from './pages/gallery/automotive/ferrari-racing-days2021-content/ferrari-racing-days2021-content.component';
 
 export const appRoutes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -28,6 +29,10 @@ export const appRoutes: Routes = [
   {
     path: 'gallery/automotive/salon_prive_2021',
     component: SalonPrive2021ContentComponent,
+  },
+  {
+    path: 'gallery/automotive/ferrari_racing_days_2021',
+    component: FerrariRacingDays2021ContentComponent,
   },
   { path: 'gallery/landscape', component: LandscapeContentComponent },
   { path: 'gallery/portrait', component: PortraitContentComponent },
