@@ -50,6 +50,24 @@ export class FerrariRacingDays2021ContentComponent implements OnInit {
       imageAlt: '',
       ratio: Ratio.Square,
     },
+    {
+      imageSrc:
+        '../../../assets/images/automotive/ferrari_racing_days_2021/ferrari_sp3jc_1.jpg',
+      imageAlt: '',
+      ratio: Ratio.Landscape,
+    },
+    {
+      imageSrc:
+        '../../../assets/images/automotive/ferrari_racing_days_2021/ferrari_sp3jc_2.jpg',
+      imageAlt: '',
+      ratio: Ratio.Square,
+    },
+    {
+      imageSrc:
+        '../../../assets/images/automotive/ferrari_racing_days_2021/ferrari_sp3jc_3.jpg',
+      imageAlt: '',
+      ratio: Ratio.Square,
+    },
   ];
 
   constructor() {}
