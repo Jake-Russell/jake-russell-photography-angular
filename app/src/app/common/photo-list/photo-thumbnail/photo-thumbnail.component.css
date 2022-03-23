@@ -19,6 +19,12 @@
   bottom: 40%;
 }
 
+.photoThumbnailText {
+  width: 80%;
+  position: absolute;
+  bottom: 40%;
+}
+
 .photoThumbnailContainer:hover {
   cursor: pointer;
 }

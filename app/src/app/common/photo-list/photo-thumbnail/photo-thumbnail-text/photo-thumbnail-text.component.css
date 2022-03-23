@@ -1,0 +1,25 @@
+.container {
+  border: 2px solid white;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: calc(100% - 20px);
+  height: 100px;
+  padding: 10px;
+  background: rgba(100, 100, 100, 0.35);
+}
+
+.content:hover {
+  background: rgba(100, 100, 100, 0.65);
+}
+
+p {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: 100;
+  text-align: center;
+}

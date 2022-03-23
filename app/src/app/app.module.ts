@@ -52,6 +52,7 @@ import { BrusselsContentComponent } from './pages/gallery/travel/brussels-conten
 import { ContactFormComponent } from './contact-form/contact-form.component';
 import { SalonPrive2021ContentComponent } from './pages/gallery/automotive/salon-prive2021-content/salon-prive2021-content.component';
 import { FerrariRacingDays2021ContentComponent } from './pages/gallery/automotive/ferrari-racing-days2021-content/ferrari-racing-days2021-content.component';
+import { PhotoThumbnailTextComponent } from './common/photo-list/photo-thumbnail/photo-thumbnail-text/photo-thumbnail-text.component';
 
 
 @NgModule({
@@ -86,6 +87,7 @@ import { FerrariRacingDays2021ContentComponent } from './pages/gallery/automotiv
     ContactFormComponent,
     SalonPrive2021ContentComponent,
     FerrariRacingDays2021ContentComponent,
+    PhotoThumbnailTextComponent,
   ],
   imports: [
     RouterModule.forRoot(appRoutes),

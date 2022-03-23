@@ -1,6 +1,5 @@
 export interface ImageThumbnail {
   imageSrc: string;
-  labelSrc: string;
-  labelHoverSrc: string;
+  labelText: string;
   galleryUrl: string;
 }
