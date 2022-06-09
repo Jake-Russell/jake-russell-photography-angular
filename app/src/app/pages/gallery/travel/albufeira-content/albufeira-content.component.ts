@@ -4,112 +4,235 @@ import { Ratio } from 'src/app/common/ratio.enum';
 @Component({
   selector: 'app-albufeira-content',
   templateUrl: './albufeira-content.component.html',
-  styleUrls: ['./albufeira-content.component.css']
+  styleUrls: ['./albufeira-content.component.css'],
 })
 export class AlbufeiraContentComponent implements OnInit {
   carouselImages = [
     {
-      imageSrc: '../../../assets/images/travel/bratislava/bratislava_12.jpg',
+      imageSrc: '../../../assets/images/travel/albufeira/boat_tour_13.jpg',
       imageAlt: '',
     },
     {
-      imageSrc: '../../../assets/images/travel/bratislava/bratislava_5.jpg',
+      imageSrc: '../../../assets/images/travel/albufeira/sunset_4.jpg',
       imageAlt: '',
     },
     {
-      imageSrc: '../../../assets/images/travel/bratislava/bratislava_1.jpg',
+      imageSrc: '../../../assets/images/travel/albufeira/rocks_7.jpg',
       imageAlt: '',
     },
     {
-      imageSrc: '../../../assets/images/travel/bratislava/bratislava_9.jpg',
+      imageSrc: '../../../assets/images/travel/albufeira/boat_tour_1.jpg',
       imageAlt: '',
     },
   ];
 
-  galleryTitle = 'Bratislava Gallery';
+  galleryTitle = 'Albufeira Gallery';
 
-  galleryText = ['Some text about Bratislava'];
+  galleryText = ['Some text about Albufeira'];
 
   allImages = [
     {
-      imageSrc: '../../../assets/images/travel/bratislava/bratislava_1.jpg',
+      imageSrc: '../../../assets/images/travel/albufeira/plane_1.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc: '../../../assets/images/travel/bratislava/bratislava_2.jpg',
-      imageAlt: '',
-      ratio: Ratio.Landscape,
-    },
-    {
-      imageSrc: '../../../assets/images/travel/bratislava/bratislava_3.jpg',
-      imageAlt: '',
-      ratio: Ratio.Landscape,
-    },
-    {
-      imageSrc:
-        '../../../assets/images/travel/bratislava/bratislava_panorama_1.jpg',
-      imageAlt: '',
-      ratio: Ratio.Panorama,
-    },
-    {
-      imageSrc:
-        '../../../assets/images/travel/bratislava/bratislava_panorama_2.jpg',
-      imageAlt: '',
-      ratio: Ratio.Panorama,
-    },
-    {
-      imageSrc: '../../../assets/images/travel/bratislava/bratislava_4.jpg',
-      imageAlt: '',
-      ratio: Ratio.Landscape,
-    },
-    {
-      imageSrc: '../../../assets/images/travel/bratislava/bratislava_5.jpg',
+      imageSrc: '../../../assets/images/travel/albufeira/sunset_1.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc: '../../../assets/images/travel/bratislava/bratislava_6.jpg',
-      imageAlt: '',
-      ratio: Ratio.Portrait,
-    },
-    {
-      imageSrc: '../../../assets/images/travel/bratislava/bratislava_7.jpg',
+      imageSrc: '../../../assets/images/travel/albufeira/sunset_2.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
     },
     {
-      imageSrc: '../../../assets/images/travel/bratislava/bratislava_8.jpg',
-      imageAlt: '',
-      ratio: Ratio.Landscape,
-    },
-    {
-      imageSrc: '../../../assets/images/travel/bratislava/bratislava_9.jpg',
+      imageSrc: '../../../assets/images/travel/albufeira/sunset_3.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc: '../../../assets/images/travel/bratislava/bratislava_10.jpg',
-      imageAlt: '',
-      ratio: Ratio.Landscape,
-    },
-    {
-      imageSrc: '../../../assets/images/travel/bratislava/bratislava_11.jpg',
+      imageSrc: '../../../assets/images/travel/albufeira/sunset_4.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc: '../../../assets/images/travel/bratislava/bratislava_12.jpg',
+      imageSrc: '../../../assets/images/travel/albufeira/sunset_5.jpg',
       imageAlt: '',
       ratio: Ratio.Portrait,
     },
     {
-      imageSrc: '../../../assets/images/travel/bratislava/bratislava_13.jpg',
+      imageSrc: '../../../assets/images/travel/albufeira/lunch_view.jpg',
+      imageAlt: '',
+      ratio: Ratio.Portrait,
+    },
+    {
+      imageSrc: '../../../assets/images/travel/albufeira/pirate_tour_1.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
     },
     {
-      imageSrc: '../../../assets/images/travel/bratislava/bratislava_14.jpg',
+      imageSrc: '../../../assets/images/travel/albufeira/pirate_tour_2.jpg',
+      imageAlt: '',
+      ratio: Ratio.Landscape,
+    },
+    {
+      imageSrc: '../../../assets/images/travel/albufeira/pirate_tour_3.jpg',
+      imageAlt: '',
+      ratio: Ratio.Landscape,
+    },
+    {
+      imageSrc: '../../../assets/images/travel/albufeira/pirate_tour_4.jpg',
+      imageAlt: '',
+      ratio: Ratio.Portrait,
+    },
+    {
+      imageSrc: '../../../assets/images/travel/albufeira/pirate_tour_5.jpg',
+      imageAlt: '',
+      ratio: Ratio.Square,
+    },
+    {
+      imageSrc: '../../../assets/images/travel/albufeira/pirate_tour_6.jpg',
+      imageAlt: '',
+      ratio: Ratio.Square,
+    },
+    {
+      imageSrc: '../../../assets/images/travel/albufeira/rocks_1.jpg',
+      imageAlt: '',
+      ratio: Ratio.Portrait,
+    },
+    {
+      imageSrc: '../../../assets/images/travel/albufeira/rocks_2.jpg',
+      imageAlt: '',
+      ratio: Ratio.Landscape,
+    },
+    {
+      imageSrc: '../../../assets/images/travel/albufeira/rocks_3.jpg',
+      imageAlt: '',
+      ratio: Ratio.Portrait,
+    },
+    {
+      imageSrc: '../../../assets/images/travel/albufeira/rocks_4.jpg',
+      imageAlt: '',
+      ratio: Ratio.Portrait,
+    },
+    {
+      imageSrc: '../../../assets/images/travel/albufeira/rocks_5.jpg',
+      imageAlt: '',
+      ratio: Ratio.Landscape,
+    },
+    {
+      imageSrc: '../../../assets/images/travel/albufeira/rocks_6.jpg',
+      imageAlt: '',
+      ratio: Ratio.Landscape,
+    },
+    {
+      imageSrc: '../../../assets/images/travel/albufeira/rocks_7.jpg',
+      imageAlt: '',
+      ratio: Ratio.Portrait,
+    },
+    {
+      imageSrc: '../../../assets/images/travel/albufeira/rocks_8.jpg',
+      imageAlt: '',
+      ratio: Ratio.Landscape,
+    },
+    {
+      imageSrc: '../../../assets/images/travel/albufeira/rocks_9.jpg',
+      imageAlt: '',
+      ratio: Ratio.Portrait,
+    },
+    {
+      imageSrc: '../../../assets/images/travel/albufeira/rocks_10.jpg',
+      imageAlt: '',
+      ratio: Ratio.Portrait,
+    },
+    {
+      imageSrc: '../../../assets/images/travel/albufeira/rocks_11.jpg',
+      imageAlt: '',
+      ratio: Ratio.Portrait,
+    },
+    {
+      imageSrc: '../../../assets/images/travel/albufeira/rocks_12.jpg',
+      imageAlt: '',
+      ratio: Ratio.Portrait,
+    },
+    {
+      imageSrc: '../../../assets/images/travel/albufeira/rocks_13.jpg',
+      imageAlt: '',
+      ratio: Ratio.Portrait,
+    },
+    {
+      imageSrc: '../../../assets/images/travel/albufeira/rocks_14.jpg',
+      imageAlt: '',
+      ratio: Ratio.Landscape,
+    },
+    {
+      imageSrc: '../../../assets/images/travel/albufeira/boat_tour_1.jpg',
+      imageAlt: '',
+      ratio: Ratio.Portrait,
+    },
+    {
+      imageSrc: '../../../assets/images/travel/albufeira/boat_tour_2.jpg',
+      imageAlt: '',
+      ratio: Ratio.Landscape,
+    },
+    {
+      imageSrc: '../../../assets/images/travel/albufeira/boat_tour_3.jpg',
+      imageAlt: '',
+      ratio: Ratio.Portrait,
+    },
+    {
+      imageSrc: '../../../assets/images/travel/albufeira/boat_tour_4.jpg',
+      imageAlt: '',
+      ratio: Ratio.Landscape,
+    },
+    {
+      imageSrc: '../../../assets/images/travel/albufeira/boat_tour_5.jpg',
+      imageAlt: '',
+      ratio: Ratio.Landscape,
+    },
+    {
+      imageSrc: '../../../assets/images/travel/albufeira/boat_tour_6.jpg',
+      imageAlt: '',
+      ratio: Ratio.Square,
+    },
+    {
+      imageSrc: '../../../assets/images/travel/albufeira/boat_tour_7.jpg',
+      imageAlt: '',
+      ratio: Ratio.Landscape,
+    },
+    {
+      imageSrc: '../../../assets/images/travel/albufeira/boat_tour_8.jpg',
+      imageAlt: '',
+      ratio: Ratio.Square,
+    },
+    {
+      imageSrc: '../../../assets/images/travel/albufeira/boat_tour_9.jpg',
+      imageAlt: '',
+      ratio: Ratio.Landscape,
+    },
+    {
+      imageSrc: '../../../assets/images/travel/albufeira/boat_tour_10.jpg',
+      imageAlt: '',
+      ratio: Ratio.Portrait,
+    },
+    {
+      imageSrc: '../../../assets/images/travel/albufeira/boat_tour_11.jpg',
+      imageAlt: '',
+      ratio: Ratio.Portrait,
+    },
+    {
+      imageSrc: '../../../assets/images/travel/albufeira/boat_tour_12.jpg',
+      imageAlt: '',
+      ratio: Ratio.Landscape,
+    },
+    {
+      imageSrc: '../../../assets/images/travel/albufeira/boat_tour_13.jpg',
+      imageAlt: '',
+      ratio: Ratio.Portrait,
+    },
+    {
+      imageSrc: '../../../assets/images/travel/albufeira/boat_tour_14.jpg',
       imageAlt: '',
       ratio: Ratio.Landscape,
     },
