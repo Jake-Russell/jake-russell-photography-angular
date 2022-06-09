@@ -45,6 +45,11 @@ export class TravelContentComponent implements OnInit {
       labelText: 'Paris 2022',
       galleryUrl: '/gallery/travel/paris',
     },
+    {
+      imageSrc: '../../../../assets/images/travel/albufeira/boat_tour_13.jpg',
+      labelText: 'Albufeira 2022',
+      galleryUrl: '/gallery/travel/albufeira',
+    },
   ];
 
   constructor() {}
