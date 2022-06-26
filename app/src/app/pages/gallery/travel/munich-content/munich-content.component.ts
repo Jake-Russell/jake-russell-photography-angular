@@ -9,26 +9,10 @@ import { Ratio } from 'src/app/common/ratio.enum';
 export class MunichContentComponent implements OnInit {
   carouselImages = [
     {
-      imageSrc: '../../../assets/images/travel/munich/munich_5.jpg',
-      imageAlt: '',
-    },
-    {
-      imageSrc: '../../../assets/images/travel/munich/munich_3.jpg',
-      imageAlt: '',
-    },
-    {
-      imageSrc: '../../../assets/images/travel/munich/munich_1.jpg',
-      imageAlt: '',
-    },
-    {
-      imageSrc: '../../../assets/images/travel/munich/munich_4.jpg',
+      imageSrc: '../../../assets/images/travel/munich/munich_7.jpg',
       imageAlt: '',
     },
   ];
-
-  galleryTitle = 'Munich Gallery';
-
-  galleryText = ['Some text about Munich'];
 
   allImages = [
     {
