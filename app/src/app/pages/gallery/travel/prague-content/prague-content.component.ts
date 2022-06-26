@@ -9,19 +9,19 @@ import { Ratio } from 'src/app/common/ratio.enum';
 export class PragueContentComponent implements OnInit {
   carouselImages = [
     {
-      imageSrc: '../../../assets/images/travel/prague/prague_9.jpg',
+      imageSrc: '../../../assets/images/travel/prague/prague_3.jpg',
       imageAlt: '',
     },
     {
-      imageSrc: '../../../assets/images/travel/prague/prague_7.jpg',
+      imageSrc: '../../../assets/images/travel/prague/prague_5.jpg',
       imageAlt: '',
     },
     {
-      imageSrc: '../../../assets/images/travel/prague/prague_17.jpg',
+      imageSrc: '../../../assets/images/travel/prague/prague_12.jpg',
       imageAlt: '',
     },
     {
-      imageSrc: '../../../assets/images/travel/prague/prague_22.jpg',
+      imageSrc: '../../../assets/images/travel/prague/prague_14.jpg',
       imageAlt: '',
     },
   ];
