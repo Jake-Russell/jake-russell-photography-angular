@@ -9,19 +9,27 @@ import { Ratio } from 'src/app/common/ratio.enum';
 export class AlbufeiraContentComponent implements OnInit {
   carouselImages = [
     {
-      imageSrc: '../../../assets/images/travel/albufeira/boat_tour_13.jpg',
+      imageSrc: '../../../assets/images/travel/albufeira/sunset_2.jpg',
       imageAlt: '',
     },
     {
-      imageSrc: '../../../assets/images/travel/albufeira/sunset_4.jpg',
+      imageSrc: '../../../assets/images/travel/albufeira/pirate_tour_1.jpg',
       imageAlt: '',
     },
     {
-      imageSrc: '../../../assets/images/travel/albufeira/rocks_7.jpg',
+      imageSrc: '../../../assets/images/travel/albufeira/rocks_5.jpg',
       imageAlt: '',
     },
     {
-      imageSrc: '../../../assets/images/travel/albufeira/boat_tour_1.jpg',
+      imageSrc: '../../../assets/images/travel/albufeira/rocks_6.jpg',
+      imageAlt: '',
+    },
+    {
+      imageSrc: '../../../assets/images/travel/albufeira/boat_tour_5.jpg',
+      imageAlt: '',
+    },
+    {
+      imageSrc: '../../../assets/images/travel/albufeira/boat_tour_12.jpg',
       imageAlt: '',
     },
   ];
