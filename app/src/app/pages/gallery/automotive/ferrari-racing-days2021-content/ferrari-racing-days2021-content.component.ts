@@ -10,22 +10,37 @@ export class FerrariRacingDays2021ContentComponent implements OnInit {
   carouselImages = [
     {
       imageSrc:
-        '../../../assets/images/automotive/ferrari_racing_days_2021/ferrari_fxxk_evo_red_2.jpg',
+        '../../../assets/images/automotive/ferrari_racing_days_2021/ferrari_sf90_grey_1.jpg',
       imageAlt: '',
     },
     {
       imageSrc:
-        '../../../assets/images/automotive/ferrari_racing_days_2021/ferrari_296_gtb_2.jpg',
+        '../../../assets/images/automotive/ferrari_racing_days_2021/ferrari_599xx_evo_grey_2.jpg',
       imageAlt: '',
     },
     {
       imageSrc:
-        '../../../assets/images/automotive/ferrari_racing_days_2021/ferrari_monza_sp2_5.jpg',
+        '../../../assets/images/automotive/ferrari_racing_days_2021/ferrari_fxxk_evo_white_3.jpg',
       imageAlt: '',
     },
     {
       imageSrc:
-        '../../../assets/images/automotive/ferrari_racing_days_2021/ferrari_488_pista_blue.jpg',
+        '../../../assets/images/automotive/ferrari_racing_days_2021/ferrari_fxxk_evo_yellow_1.jpg',
+      imageAlt: '',
+    },
+    {
+      imageSrc:
+        '../../../assets/images/automotive/ferrari_racing_days_2021/ferrari_sp3jc_1.jpg',
+      imageAlt: '',
+    },
+    {
+      imageSrc:
+        '../../../assets/images/automotive/ferrari_racing_days_2021/ferrari_488_gt3_3.jpg',
+      imageAlt: '',
+    },
+    {
+      imageSrc:
+        '../../../assets/images/automotive/ferrari_racing_days_2021/ferrari_fxxk_evo_white_4.jpg',
       imageAlt: '',
     },
   ];

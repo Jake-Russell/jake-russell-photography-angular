@@ -9,23 +9,35 @@ import { Ratio } from 'src/app/common/ratio.enum';
 export class SalonPrive2021ContentComponent implements OnInit {
   carouselImages = [
     {
-      imageSrc:
-        '../../../assets/images/automotive/salon_prive_2021/bugatti_chiron_1.jpg',
+      imageSrc: '../../../assets/images/automotive/salon_prive_2021/automobil_pininfarina_battista_anniversario_2.jpg',
       imageAlt: '',
     },
     {
-      imageSrc:
-        '../../../assets/images/automotive/salon_prive_2021/jaguar_e-type_3.jpg',
+      imageSrc: '../../../assets/images/automotive/salon_prive_2021/bugatti_chiron_supersport_1.jpg',
       imageAlt: '',
     },
     {
-      imageSrc:
-        '../../../assets/images/automotive/salon_prive_2021/lamborghini_huracan_sto_2.jpg',
+      imageSrc: '../../../assets/images/automotive/salon_prive_2021/ferrari_sf90_stradale.jpg',
       imageAlt: '',
     },
     {
-      imageSrc:
-        '../../../assets/images/automotive/salon_prive_2021/ferrari_f50_2.jpg',
+      imageSrc: '../../../assets/images/automotive/salon_prive_2021/lamborghini_huracan_performante_orange.jpg',
+      imageAlt: '',
+    },
+    {
+      imageSrc: '../../../assets/images/automotive/salon_prive_2021/lemans.jpg',
+      imageAlt: '',
+    },
+    {
+      imageSrc: '../../../assets/images/automotive/salon_prive_2021/mclaren_765lt_spider.jpg',
+      imageAlt: '',
+    },
+    {
+      imageSrc: '../../../assets/images/automotive/salon_prive_2021/mclaren_elva_1.jpg',
+      imageAlt: '',
+    },
+    {
+      imageSrc: '../../../assets/images/automotive/salon_prive_2021/mclaren_elva_2.jpg',
       imageAlt: '',
     },
   ];
