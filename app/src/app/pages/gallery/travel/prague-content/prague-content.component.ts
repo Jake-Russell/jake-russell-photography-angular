@@ -26,10 +26,6 @@ export class PragueContentComponent implements OnInit {
     },
   ];
 
-  galleryTitle = 'Prague Gallery';
-
-  galleryText = ['Some text about Prague'];
-
   allImages = [
     {
       imageSrc: '../../../assets/images/travel/prague/prague_1.jpg',
