@@ -9,27 +9,10 @@ import { Ratio } from 'src/app/common/ratio.enum';
 export class CologneContentComponent implements OnInit {
   carouselImages = [
     {
-      imageSrc:
-        '../../../assets/images/travel/cologne/cologne_7_black_and_white.jpg',
-      imageAlt: '',
-    },
-    {
-      imageSrc: '../../../assets/images/travel/cologne/cologne_4.jpg',
-      imageAlt: '',
-    },
-    {
-      imageSrc: '../../../assets/images/travel/cologne/cologne_5.jpg',
-      imageAlt: '',
-    },
-    {
-      imageSrc: '../../../assets/images/travel/cologne/cologne_6.jpg',
+      imageSrc: '../../../assets/images/travel/cologne/cologne_2.jpg',
       imageAlt: '',
     },
   ];
-
-  galleryTitle = 'Cologne Gallery';
-
-  galleryText = ['Some text about Cologne'];
 
   allImages = [
     {
