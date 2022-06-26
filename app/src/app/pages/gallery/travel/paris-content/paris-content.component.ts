@@ -9,23 +9,27 @@ import { Ratio } from 'src/app/common/ratio.enum';
 export class ParisContentComponent implements OnInit {
   carouselImages = [
     {
-      imageSrc: '../../../assets/images/travel/paris/arc_de_triomphe_3.jpg',
+      imageSrc: '../../../assets/images/travel/paris/sunset_3.jpg',
       imageAlt: '',
     },
     {
-      imageSrc: '../../../assets/images/travel/paris/louvre_3.jpg',
+      imageSrc: '../../../assets/images/travel/paris/sacre_coeur_3.jpg',
       imageAlt: '',
     },
     {
-      imageSrc: '../../../assets/images/travel/paris/sunset_1.jpg',
+      imageSrc: '../../../assets/images/travel/paris/river_seine_1.jpg',
       imageAlt: '',
     },
     {
-      imageSrc: '../../../assets/images/travel/paris/sacre_coeur_2.jpg',
+      imageSrc: '../../../assets/images/travel/paris/river_seine_4.jpg',
       imageAlt: '',
     },
     {
-      imageSrc: '../../../assets/images/travel/paris/eiffel_tower_4.jpg',
+      imageSrc: '../../../assets/images/travel/paris/eiffel_tower_2.jpg',
+      imageAlt: '',
+    },
+    {
+      imageSrc: '../../../assets/images/travel/paris/arc_de_triomphe_2.jpg',
       imageAlt: '',
     },
   ];
