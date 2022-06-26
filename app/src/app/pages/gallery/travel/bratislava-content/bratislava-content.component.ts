@@ -9,19 +9,19 @@ import { Ratio } from 'src/app/common/ratio.enum';
 export class BratislavaContentComponent implements OnInit {
   carouselImages = [
     {
-      imageSrc: '../../../assets/images/travel/bratislava/bratislava_12.jpg',
+      imageSrc: '../../../assets/images/travel/bratislava/bratislava_4.jpg',
       imageAlt: '',
     },
     {
-      imageSrc: '../../../assets/images/travel/bratislava/bratislava_5.jpg',
+      imageSrc: '../../../assets/images/travel/bratislava/bratislava_8.jpg',
       imageAlt: '',
     },
     {
-      imageSrc: '../../../assets/images/travel/bratislava/bratislava_1.jpg',
+      imageSrc: '../../../assets/images/travel/bratislava/bratislava_13.jpg',
       imageAlt: '',
     },
     {
-      imageSrc: '../../../assets/images/travel/bratislava/bratislava_9.jpg',
+      imageSrc: '../../../assets/images/travel/bratislava/bratislava_14.jpg',
       imageAlt: '',
     },
   ];
