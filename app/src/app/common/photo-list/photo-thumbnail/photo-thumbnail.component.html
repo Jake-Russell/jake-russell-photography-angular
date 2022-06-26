@@ -1,7 +1,4 @@
-<div
-  class="photoThumbnailContainer"
-  routerLink="{{ imageThumbnail.galleryUrl }}"
->
+<div class="photoThumbnailContainer" (click)="onClick()">
   <img class="photoThumbnail" [src]="imageThumbnail.imageSrc" alt="" />
   <photo-thumbnail-text
     class="photoThumbnailText"

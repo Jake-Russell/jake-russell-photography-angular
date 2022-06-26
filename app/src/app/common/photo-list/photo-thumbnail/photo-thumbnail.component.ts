@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { ImageThumbnail } from 'src/app/image-thumbnail.model';
 
 @Component({
@@ -9,7 +10,12 @@ import { ImageThumbnail } from 'src/app/image-thumbnail.model';
 export class PhotoThumbnailComponent implements OnInit {
   @Input() imageThumbnail!: ImageThumbnail;
 
-  constructor() {}
+  constructor(private router: Router) {}
+
+  onClick() {
+    this.router.navigateByUrl(this.imageThumbnail.galleryUrl);
+    document.body.scrollTop = document.documentElement.scrollTop = 0;
+  }
 
   ngOnInit(): void {}
 }
