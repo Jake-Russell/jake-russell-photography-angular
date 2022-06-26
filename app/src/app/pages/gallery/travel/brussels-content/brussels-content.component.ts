@@ -9,19 +9,15 @@ import { Ratio } from 'src/app/common/ratio.enum';
 export class BrusselsContentComponent implements OnInit {
   carouselImages = [
     {
-      imageSrc: '../../../assets/images/travel/brussels/brussels_2.jpg',
+      imageSrc: '../../../assets/images/travel/brussels/brussels_5.jpg',
       imageAlt: '',
     },
     {
-      imageSrc: '../../../assets/images/travel/brussels/brussels_3.jpg',
+      imageSrc: '../../../assets/images/travel/brussels/brussels_6.jpg',
       imageAlt: '',
     },
     {
-      imageSrc: '../../../assets/images/travel/brussels/brussels_7.jpg',
-      imageAlt: '',
-    },
-    {
-      imageSrc: '../../../assets/images/travel/brussels/brussels_8.jpg',
+      imageSrc: '../../../assets/images/travel/brussels/brussels_9.jpg',
       imageAlt: '',
     },
   ];
