@@ -17,17 +17,11 @@ export class ImageGalleryComponent implements OnInit {
 
   click(image: Image, index: number) {
     const dialogRef = this.dialog.open(ImageViewerComponent, {
-      // width: '75%',
-      // maxHeight: '80vh',
-
-      // width: '85%',
-      // height: '75%',
       data: {
         image,
         images: this.images,
         index,
       },
-      // panelClass: image.landscape ? 'landscape' : 'portrait',
       panelClass: image.ratio,
     });
   }

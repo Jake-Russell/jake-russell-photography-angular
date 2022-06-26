@@ -8,7 +8,6 @@ import { Image } from '../../image.model';
   styleUrls: ['./image-viewer.component.css'],
 })
 export class ImageViewerComponent implements OnInit {
-  // @Input() images: Image[] = [];
   images: Image[] = [];
   image!: Image;
 
