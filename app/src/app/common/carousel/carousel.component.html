@@ -3,9 +3,20 @@
     *ngFor="let image of images; let i = index"
     [src]="image.imageSrc"
     [alt]="image.imageAlt"
-    [ngClass]="{ 'image-active': selectedIndex === i }"
-    class="fade"
+    [ngClass]="{
+      'image-active': selectedIndex === i
+    }"
+    class="low-opacity"
   />
+
+  <!--       'high-opacity': text !== '',
+      'low-opacity': text === '' -->
+  <photo-thumbnail-text
+    *ngIf="text !== ''"
+    [text]="text"
+    [hover]="false"
+    class="overlay-text"
+  ></photo-thumbnail-text>
 
   <div *ngIf="indicators" class="carousel-dot-container">
     <span

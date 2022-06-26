@@ -8,6 +8,7 @@ import { Image } from '../../image.model';
 })
 export class CarouselComponent implements OnInit {
   @Input() images: Image[] = [];
+  @Input() text: string = '';
   @Input() indicators = true;
   @Input() controls = true;
   @Input() autoSlide = false;

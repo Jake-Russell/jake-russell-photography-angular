@@ -7,6 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class PhotoThumbnailTextComponent implements OnInit {
   @Input() text: string = '';
+  @Input() hover: boolean = true
 
   constructor() {}
 

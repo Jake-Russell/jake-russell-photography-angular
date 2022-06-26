@@ -54,17 +54,31 @@
 }
 
 /* Image transition fade effect */
-.fade {
-  animation-name: fade;
+.low-opacity {
+  animation-name: low-opacity;
   animation-duration: 3s;
 }
 
-@keyframes fade {
+@keyframes low-opacity {
   from {
     opacity: 0.4;
   }
   to {
     opacity: 1;
+  }
+}
+
+.high-opacity {
+  animation-name: high-opacity;
+  animation-duration: 5s;
+}
+
+@keyframes high-opacity {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 0.6;
   }
 }
 
@@ -104,4 +118,11 @@
 
 .icon-carousel:active {
   opacity: 0.5s;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

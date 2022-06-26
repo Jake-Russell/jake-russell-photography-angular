@@ -9,19 +9,15 @@ import { Ratio } from 'src/app/common/ratio.enum';
 export class BudapestContentComponent implements OnInit {
   carouselImages = [
     {
-      imageSrc: '../../../assets/images/travel/budapest/budapest_streets.jpg',
+      imageSrc: '../../../assets/images/travel/budapest/budapest_1.jpg',
       imageAlt: '',
     },
     {
-      imageSrc: '../../../assets/images/travel/budapest/budapest_suburbs.jpg',
+      imageSrc: '../../../assets/images/travel/budapest/budapest_2.jpg',
       imageAlt: '',
     },
     {
-      imageSrc: '../../../assets/images/travel/budapest/budapest_4.jpg',
-      imageAlt: '',
-    },
-    {
-      imageSrc: '../../../assets/images/travel/budapest/budapest_6.jpg',
+      imageSrc: '../../../assets/images/travel/budapest/budapest_8.jpg',
       imageAlt: '',
     },
   ];

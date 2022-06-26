@@ -54,6 +54,7 @@ import { SalonPrive2021ContentComponent } from './pages/gallery/automotive/salon
 import { FerrariRacingDays2021ContentComponent } from './pages/gallery/automotive/ferrari-racing-days2021-content/ferrari-racing-days2021-content.component';
 import { PhotoThumbnailTextComponent } from './common/photo-list/photo-thumbnail/photo-thumbnail-text/photo-thumbnail-text.component';
 import { AlbufeiraContentComponent } from './pages/gallery/travel/albufeira-content/albufeira-content.component';
+import { SubGalleryHeadingComponent } from './sub-gallery-heading/sub-gallery-heading.component';
 
 @NgModule({
   declarations: [
@@ -89,6 +90,7 @@ import { AlbufeiraContentComponent } from './pages/gallery/travel/albufeira-cont
     FerrariRacingDays2021ContentComponent,
     PhotoThumbnailTextComponent,
     AlbufeiraContentComponent,
+    SubGalleryHeadingComponent,
   ],
   imports: [
     RouterModule.forRoot(appRoutes),
