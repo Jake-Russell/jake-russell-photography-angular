@@ -16,8 +16,6 @@ export class ImageGalleryComponent implements OnInit {
   ngOnInit(): void {}
 
   click(image: Image, index: number) {
-    console.log(`Ratio is ${image.ratio}`);
-
     const dialogRef = this.dialog.open(ImageViewerComponent, {
       // width: '75%',
       // maxHeight: '80vh',
