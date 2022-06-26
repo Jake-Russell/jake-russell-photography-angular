@@ -26,10 +26,6 @@ export class BratislavaContentComponent implements OnInit {
     },
   ];
 
-  galleryTitle = 'Bratislava Gallery';
-
-  galleryText = ['Some text about Bratislava'];
-
   allImages = [
     {
       imageSrc: '../../../assets/images/travel/bratislava/bratislava_1.jpg',

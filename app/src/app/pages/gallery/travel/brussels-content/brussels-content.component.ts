@@ -26,10 +26,6 @@ export class BrusselsContentComponent implements OnInit {
     },
   ];
 
-  galleryTitle = 'Brussels Gallery';
-
-  galleryText = ['Some text about Brussels'];
-
   allImages = [
     {
       imageSrc: '../../../assets/images/travel/brussels/brussels_1.jpg',

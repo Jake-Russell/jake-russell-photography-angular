@@ -26,10 +26,6 @@ export class AlbufeiraContentComponent implements OnInit {
     },
   ];
 
-  galleryTitle = 'Albufeira Gallery';
-
-  galleryText = ['Some text about Albufeira'];
-
   allImages = [
     {
       imageSrc: '../../../assets/images/travel/albufeira/plane_1.jpg',

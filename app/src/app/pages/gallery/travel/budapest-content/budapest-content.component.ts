@@ -22,10 +22,6 @@ export class BudapestContentComponent implements OnInit {
     },
   ];
 
-  galleryTitle = 'Budapest Gallery';
-
-  galleryText = ['Some text about Budapest'];
-
   allImages = [
     {
       imageSrc:
