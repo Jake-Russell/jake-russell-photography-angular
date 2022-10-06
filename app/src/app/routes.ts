@@ -19,6 +19,7 @@ import { BrusselsContentComponent } from './pages/gallery/travel/brussels-conten
 import { SalonPrive2021ContentComponent } from './pages/gallery/automotive/salon-prive2021-content/salon-prive2021-content.component';
 import { FerrariRacingDays2021ContentComponent } from './pages/gallery/automotive/ferrari-racing-days2021-content/ferrari-racing-days2021-content.component';
 import { AlbufeiraContentComponent } from './pages/gallery/travel/albufeira-content/albufeira-content.component';
+import { LondonContentComponent } from './pages/gallery/travel/london-content/london-content.component';
 
 export const appRoutes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -47,6 +48,7 @@ export const appRoutes: Routes = [
   { path: 'gallery/travel/brussels', component: BrusselsContentComponent },
   { path: 'gallery/travel/paris', component: ParisContentComponent },
   { path: 'gallery/travel/albufeira', component: AlbufeiraContentComponent },
+  { path: 'gallery/travel/london', component: LondonContentComponent },
   { path: '404', component: PageNotFoundComponent },
   { path: '**', redirectTo: '/404' },
 ];
