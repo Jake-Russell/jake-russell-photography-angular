@@ -34,7 +34,7 @@ export class ContactFormComponent implements OnInit {
   onFormSubmit(formReference: FormGroupDirective) {
     this.http
       .post(
-        `http://localhost/Jake%20Russell%20Photography%20Angular/Jake-Russell-Photography-Angular/api/sendEmail.php`,
+        `http://localhost/Jake-Russell-Photography-Angular/api/sendEmail.php`,
         this.contactForm.value
       )
       .subscribe(
@@ -53,6 +53,7 @@ export class ContactFormComponent implements OnInit {
               timeOut: 5000,
               progressBar: true,
             });
+            console.log(data.response.body);
           }
         },
         (error) => {
