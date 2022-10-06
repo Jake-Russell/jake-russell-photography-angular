@@ -78,6 +78,11 @@ export class TravelContentComponent implements OnInit {
       galleryUrl: '/gallery/travel/brussels',
     },
     {
+      imageSrc: '../../../assets/images/travel/london/big_ben_1.jpg',
+      labelText: 'London 2019',
+      galleryUrl: '/gallery/travel/london',
+    },
+    {
       imageSrc: '../../../../assets/images/travel/paris/arc_de_triomphe_3.jpg',
       labelText: 'Paris 2022',
       galleryUrl: '/gallery/travel/paris',
