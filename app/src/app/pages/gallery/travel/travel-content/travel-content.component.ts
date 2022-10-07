@@ -79,7 +79,7 @@ export class TravelContentComponent implements OnInit {
     },
     {
       imageSrc: '../../../assets/images/travel/london/big_ben_1.jpg',
-      labelText: 'London 2019',
+      labelText: 'London 2021',
       galleryUrl: '/gallery/travel/london',
     },
     {
