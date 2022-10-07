@@ -57,8 +57,6 @@ import { AlbufeiraContentComponent } from './pages/gallery/travel/albufeira-cont
 import { LondonContentComponent } from './pages/gallery/travel/london-content/london-content.component';
 import { SubGalleryHeadingComponent } from './sub-gallery-heading/sub-gallery-heading.component';
 
-import { LazyLoadImageModule } from 'ng-lazyload-image';
-
 
 @NgModule({
   declarations: [
@@ -115,7 +113,6 @@ import { LazyLoadImageModule } from 'ng-lazyload-image';
     MatListModule,
     MatFormFieldModule,
     MatInputModule,
-    LazyLoadImageModule
   ],
   providers: [],
   bootstrap: [AppComponent],
